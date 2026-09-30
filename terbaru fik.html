@@ -2112,6 +2112,40 @@ body.bg-pattern {
 }
 </style>
 
+
+
+<style id="hamburger-reliable-final-fix">
+/* FIX FINAL HAMBURGER MOBILE: dropdown tidak terpotong */
+@media (max-width: 767px) {
+  header.main-navbar { overflow: visible !important; z-index: 9999 !important; }
+  header.main-navbar .navbar-inner { overflow: visible !important; }
+  #mobileMenuButton.mobile-menu-button {
+    display: inline-flex !important; visibility: visible !important; opacity: 1 !important;
+    position: relative !important; z-index: 10002 !important; flex: 0 0 44px !important;
+    width: 44px !important; height: 44px !important; min-width: 44px !important;
+    min-height: 44px !important; cursor: pointer !important;
+  }
+  #mobileMenu.mobile-menu {
+    display: block !important; position: absolute !important; top: 100% !important;
+    left: 0 !important; right: 0 !important; width: 100% !important;
+    max-height: calc(100vh - 90px); overflow-y: auto; box-sizing: border-box;
+    z-index: 10001 !important; background: #fffaf0 !important;
+    opacity: 0; visibility: hidden; pointer-events: none;
+    transform: translateY(-8px);
+  }
+  #mobileMenu.mobile-menu.is-open {
+    display: block !important; opacity: 1 !important; visibility: visible !important;
+    pointer-events: auto !important; transform: translateY(0) !important;
+  }
+  #mobileMenu .mobile-menu-inner { display: grid !important; gap: 7px !important; }
+  #mobileMenu .mobile-menu-link { display: flex !important; min-height: 48px; }
+}
+@media (min-width: 768px) {
+  #mobileMenuButton.mobile-menu-button { display: none !important; }
+  #mobileMenu.mobile-menu { display: none !important; }
+}
+</style>
+
 </head>
 
 
@@ -4729,6 +4763,16 @@ body {
         width: min(100%, 285px);
     }
 }
+
+/* ===== FIX HAMBURGER MOBILE FINAL ===== */
+header, header.main-navbar, .main-navbar { overflow: visible !important; }
+.mobile-menu-button { position:relative !important; z-index:10001 !important; }
+.mobile-menu-button span { display:block; }
+.mobile-menu { position:absolute !important; top:100% !important; left:0 !important; right:0 !important; z-index:10000 !important; display:block !important; opacity:0; visibility:hidden; pointer-events:none; transform:translateY(-8px); transition:opacity .2s ease,transform .2s ease,visibility .2s ease; }
+.mobile-menu.is-open { opacity:1 !important; visibility:visible !important; pointer-events:auto !important; transform:translateY(0) !important; }
+@media (max-width:767px){ .mobile-menu-button{display:inline-flex !important;} .mobile-menu{display:block !important;} header,header.main-navbar,.main-navbar{overflow:visible !important;} }
+@media (min-width:768px){ .mobile-menu-button{display:none !important;} .mobile-menu{display:none !important;} }
+/* ===== END FIX ===== */
 </style>
 
 
@@ -4772,6 +4816,38 @@ document.addEventListener('DOMContentLoaded', function () {
         if (window.innerWidth >= 768) closeMenu();
     });
 });
+</script>
+
+
+<script id="hamburger-reliable-final-script">
+(function () {
+  function initMobileMenu() {
+    var button = document.getElementById('mobileMenuButton');
+    var menu = document.getElementById('mobileMenu');
+    if (!button || !menu || button.dataset.menuReady === 'true') return;
+    button.dataset.menuReady = 'true';
+    function setMenu(open) {
+      button.classList.toggle('is-open', open);
+      menu.classList.toggle('is-open', open);
+      button.setAttribute('aria-expanded', open ? 'true' : 'false');
+      button.setAttribute('aria-label', open ? 'Tutup menu navigasi' : 'Buka menu navigasi');
+      menu.setAttribute('aria-hidden', open ? 'false' : 'true');
+    }
+    button.addEventListener('click', function (event) {
+      event.preventDefault(); event.stopPropagation();
+      setMenu(!menu.classList.contains('is-open'));
+    });
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () { setMenu(false); });
+    });
+    document.addEventListener('click', function (event) {
+      if (menu.classList.contains('is-open') && !menu.contains(event.target) && !button.contains(event.target)) setMenu(false);
+    });
+    window.addEventListener('resize', function () { if (window.innerWidth >= 768) setMenu(false); });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initMobileMenu);
+  else initMobileMenu();
+})();
 </script>
 
 </body>
