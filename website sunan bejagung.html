@@ -1,0 +1,4855 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Makam Sunan Bejagung Kidul - Wisata Religi & Sejarah Tuban</title>
+
+    <!-- ========================================================= -->
+    <!-- TAILWIND CSS -->
+    <!-- ========================================================= -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- ========================================================= -->
+    <!-- GOOGLE FONTS -->
+    <!-- ========================================================= -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- ========================================================= -->
+    <!-- TAILWIND CONFIG -->
+    <!-- ========================================================= -->
+
+    <script>
+
+        tailwind.config = {
+
+            theme: {
+
+                extend: {
+
+                    colors: {
+
+                        /* =================================================
+                           WARNA UTAMA
+                        ================================================= */
+
+                        'heritage-dark': '#183E4A',
+                        'heritage-navy': '#244B5A',
+                        'heritage-warm': '#80624B',
+
+                        /* =================================================
+                           WARNA COKELAT
+                        ================================================= */
+
+                        'heritage-brown': '#8B6F58',
+                        'brown-espresso': '#4A3428',
+                        'brown-walnut': '#62483A',
+                        'brown-cocoa': '#765A48',
+                        'brown-clay': '#9A765B',
+                        'brown-taupe': '#B18C70',
+                        'brown-sand': '#C8AA8D',
+                        'brown-cream': '#E6D7C8',
+
+                        /* TAMBAHAN COKELAT PASTEL */
+
+                        'brown-latte': '#CDB39D',
+                        'brown-mocha': '#A98770',
+                        'brown-caramel': '#B99373',
+                        'brown-milk': '#E8D9CB',
+                        'brown-peach': '#D9B9A5',
+                        'brown-dust': '#C6A88F',
+
+                        /* =================================================
+                           WARNA NETRAL
+                        ================================================= */
+
+                        'slate-deep': '#30434A',
+                        'beige-soft': '#ECEEDF',
+                        'cream-warm': '#F7F5EC',
+                        'white-warm': '#FFFDF7',
+
+                        /* =================================================
+                           WARNA BIRU
+                        ================================================= */
+
+                        'powder-blue': '#BBDCE5',
+                        'blue-soft': '#DCEEF2',
+                        'navy-soft': '#365B68',
+
+                        /* =================================================
+                           WARNA TEAL
+                        ================================================= */
+
+                        'teal-soft': '#8FC6CC',
+                        'teal': '#4F8790',
+                        'teal-dark': '#2E6973',
+
+                        /* =================================================
+                           WARNA HIJAU
+                        ================================================= */
+
+                        'sage': '#AFC5A4',
+                        'sage-soft': '#E6EEDC',
+                        'olive-soft': '#C7D2B5',
+
+                        /* =================================================
+                           AKSEN
+                        ================================================= */
+
+                        'sand-beige': '#D9C4B0',
+                        'pale-ocre': '#CFAB8D',
+                        'gold-soft': '#C9A77B',
+
+                    },
+
+
+                    fontFamily: {
+
+                        sans: [
+                            'Plus Jakarta Sans',
+                            'sans-serif'
+                        ],
+
+                        serif: [
+                            'Cormorant Garamond',
+                            'serif'
+                        ],
+
+                        script: [
+                            'Allura',
+                            'cursive'
+                        ],
+
+                    },
+
+
+                    boxShadow: {
+
+                        soft:
+                            '0 10px 30px rgba(36, 75, 90, 0.10)',
+
+                        card:
+                            '0 8px 24px rgba(36, 75, 90, 0.08)',
+
+                        brown:
+                            '0 10px 30px rgba(98, 72, 58, 0.15)',
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    </script>
+
+
+    <!-- ========================================================= -->
+    <!-- CUSTOM CSS -->
+    <!-- ========================================================= -->
+
+    <style>
+
+        /* =========================================================
+           BASIC
+        ========================================================= */
+
+        .font-script {
+            font-family: 'Allura', cursive;
+        }
+
+        body {
+
+            background-color: #F7F5EC;
+
+        }
+
+
+        /* =========================================================
+           BACKGROUND PATTERN
+        ========================================================= */
+
+        .bg-pattern {
+
+            background-color: #F7F5EC;
+
+            background-image:
+
+                radial-gradient(
+                    #BBDCE5 0.75px,
+                    transparent 0.75px
+                ),
+
+                radial-gradient(
+                    #AFC5A4 0.75px,
+                    #F7F5EC 0.75px
+                );
+
+            background-size: 34px 34px;
+
+            background-position:
+                0 0,
+                17px 17px;
+
+        }
+
+
+        /* =========================================================
+           HERO GLOW
+        ========================================================= */
+
+        .hero-glow {
+
+            background:
+
+                radial-gradient(
+                    circle at 10% 20%,
+                    rgba(187, 220, 229, 0.55),
+                    transparent 30%
+                ),
+
+                radial-gradient(
+                    circle at 90% 75%,
+                    rgba(175, 197, 164, 0.35),
+                    transparent 28%
+                ),
+
+                radial-gradient(
+                    circle at 55% 105%,
+                    rgba(154, 118, 91, 0.16),
+                    transparent 30%
+                );
+
+        }
+
+
+        /* =========================================================
+           CARD
+        ========================================================= */
+
+        .soft-card {
+
+            box-shadow:
+                0 8px 24px rgba(36, 75, 90, 0.08);
+
+        }
+
+
+        /* =========================================================
+           IMAGE HOVER
+        ========================================================= */
+
+        .image-hover img {
+
+            transition:
+                transform 0.5s ease;
+
+        }
+
+        .image-hover:hover img {
+
+            transform:
+                scale(1.04);
+
+        }
+
+
+        /* =========================================================
+           SCROLL PROGRESS
+        ========================================================= */
+
+        #scroll-progress {
+
+            position: fixed;
+
+            top: 0;
+            left: 0;
+
+            width: 0%;
+
+            height: 4px;
+
+            background:
+
+                linear-gradient(
+                    90deg,
+                    #80624B,
+                    #C8AA8D,
+                    #BBDCE5,
+                    #4F8790
+                );
+
+            z-index: 9999;
+
+            transition:
+                width 0.1s ease;
+
+        }
+
+
+        /* =========================================================
+           RUNNING TEXT
+        ========================================================= */
+
+        .marquee-wrapper {
+
+            overflow: hidden;
+
+            white-space: nowrap;
+
+            position: relative;
+
+        }
+
+
+        .marquee-content {
+
+            display: inline-flex;
+
+            min-width: max-content;
+
+            animation:
+                marquee 28s linear infinite;
+
+        }
+
+
+        .marquee-content span {
+
+            margin-right: 70px;
+
+        }
+
+
+        @keyframes marquee {
+
+            from {
+
+                transform:
+                    translateX(0);
+
+            }
+
+            to {
+
+                transform:
+                    translateX(-50%);
+
+            }
+
+        }
+
+
+        /* =========================================================
+           SCROLL REVEAL
+        ========================================================= */
+
+        .reveal {
+
+            opacity: 0;
+
+            transform:
+                translateY(35px);
+
+            transition:
+
+                opacity 0.8s ease,
+
+                transform 0.8s ease;
+
+        }
+
+
+        .reveal.active {
+
+            opacity: 1;
+
+            transform:
+                translateY(0);
+
+        }
+
+
+        /* =========================================================
+           LIGHTBOX
+        ========================================================= */
+
+        .lightbox {
+
+            position: fixed;
+
+            inset: 0;
+
+            background:
+                rgba(24, 62, 74, 0.94);
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            padding: 25px;
+
+            z-index: 9998;
+
+            opacity: 0;
+
+            visibility: hidden;
+
+            transition:
+                0.3s ease;
+
+        }
+
+
+        .lightbox.active {
+
+            opacity: 1;
+
+            visibility: visible;
+
+        }
+
+
+        .lightbox img {
+
+            max-width: 92%;
+
+            max-height: 85vh;
+
+            object-fit: contain;
+
+            border-radius: 18px;
+
+            box-shadow:
+                0 25px 80px rgba(0, 0, 0, 0.35);
+
+            transform:
+                scale(0.9);
+
+            transition:
+                transform 0.3s ease;
+
+        }
+
+
+        .lightbox.active img {
+
+            transform:
+                scale(1);
+
+        }
+
+
+        .lightbox-close {
+
+            position: absolute;
+
+            top: 25px;
+
+            right: 30px;
+
+            width: 45px;
+
+            height: 45px;
+
+            border-radius: 50%;
+
+            border: none;
+
+            background:
+                #E6D7C8;
+
+            color:
+                #4A3428;
+
+            font-size: 25px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+
+        }
+
+
+        /* =========================================================
+           BACK TO TOP
+        ========================================================= */
+
+        #backToTop {
+
+            position: fixed;
+
+            right: 22px;
+
+            bottom: 22px;
+
+            width: 48px;
+
+            height: 48px;
+
+            border-radius: 50%;
+
+            border: none;
+
+            background:
+                #80624B;
+
+            color: white;
+
+            font-size: 20px;
+
+            cursor: pointer;
+
+            z-index: 100;
+
+            box-shadow:
+                0 8px 25px rgba(74, 52, 40, 0.25);
+
+            opacity: 0;
+
+            visibility: hidden;
+
+            transform:
+                translateY(15px);
+
+            transition:
+                0.3s ease;
+
+        }
+
+
+        #backToTop.show {
+
+            opacity: 1;
+
+            visibility: visible;
+
+            transform:
+                translateY(0);
+
+        }
+
+
+        #backToTop:hover {
+
+            background:
+                #62483A;
+
+            transform:
+                translateY(-4px);
+
+        }
+
+
+        /* =========================================================
+           CLICKABLE IMAGE
+        ========================================================= */
+
+        .clickable-image {
+
+            cursor:
+                zoom-in;
+
+        }
+
+
+        /* =========================================================
+           LIVE BADGE
+        ========================================================= */
+
+        .live-badge {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            gap: 7px;
+
+        }
+
+
+        .live-dot {
+
+            width: 8px;
+
+            height: 8px;
+
+            border-radius: 50%;
+
+            background:
+                #8FC6CC;
+
+            animation:
+                pulse-dot 1.5s infinite;
+
+        }
+
+
+        @keyframes pulse-dot {
+
+            0% {
+
+                box-shadow:
+                    0 0 0 0 rgba(143, 198, 204, 0.7);
+
+            }
+
+            70% {
+
+                box-shadow:
+                    0 0 0 8px rgba(143, 198, 204, 0);
+
+            }
+
+            100% {
+
+                box-shadow:
+                    0 0 0 0 rgba(143, 198, 204, 0);
+
+            }
+
+        }
+
+
+
+        /* =========================================================
+           DIGITAL EXPERIENCE PANEL
+           Terinspirasi dari tampilan kartu pada referensi pengguna
+        ========================================================= */
+
+        .digital-experience {
+            position: relative;
+            overflow: hidden;
+            isolation: isolate;
+            background:
+                radial-gradient(circle at 12% 18%, rgba(255,255,255,0.07), transparent 26%),
+                radial-gradient(circle at 88% 82%, rgba(201,167,123,0.20), transparent 30%),
+                linear-gradient(120deg, #183E4A 0%, #244B5A 56%, #5D463A 100%);
+            box-shadow:
+                0 28px 70px rgba(36, 75, 90, 0.18),
+                0 10px 30px rgba(74, 52, 40, 0.10);
+        }
+
+        .digital-experience::before {
+            content: "";
+            position: absolute;
+            width: 280px;
+            height: 280px;
+            border-radius: 999px;
+            right: -100px;
+            top: -130px;
+            background: rgba(255,255,255,0.06);
+            filter: blur(3px);
+            z-index: -1;
+        }
+
+        .digital-experience::after {
+            content: "";
+            position: absolute;
+            width: 220px;
+            height: 220px;
+            border-radius: 999px;
+            left: -90px;
+            bottom: -130px;
+            background: rgba(201,167,123,0.10);
+            z-index: -1;
+        }
+
+        .experience-kicker {
+            color: #DDB58F;
+            letter-spacing: 0.28em;
+        }
+
+        .experience-title {
+            text-wrap: balance;
+        }
+
+        .experience-description {
+            color: rgba(255,255,255,0.76);
+        }
+
+        .experience-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 20px;
+        }
+
+        .experience-card {
+            position: relative;
+            min-height: 168px;
+            padding: 25px;
+            border: 1px solid rgba(255,255,255,0.18);
+            border-radius: 20px;
+            background: linear-gradient(
+                145deg,
+                rgba(255,255,255,0.11),
+                rgba(255,255,255,0.055)
+            );
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
+            transition:
+                transform 0.35s ease,
+                border-color 0.35s ease,
+                background 0.35s ease,
+                box-shadow 0.35s ease;
+        }
+
+        .experience-card::after {
+            content: "";
+            position: absolute;
+            inset: auto 18px 0 18px;
+            height: 2px;
+            border-radius: 999px;
+            background: linear-gradient(90deg, transparent, rgba(221,181,143,0.75), transparent);
+            opacity: 0;
+            transition: opacity 0.35s ease;
+        }
+
+        .experience-card:hover {
+            transform: translateY(-7px);
+            border-color: rgba(255,255,255,0.30);
+            background: linear-gradient(
+                145deg,
+                rgba(255,255,255,0.15),
+                rgba(255,255,255,0.075)
+            );
+            box-shadow:
+                0 18px 35px rgba(0,0,0,0.14),
+                inset 0 1px 0 rgba(255,255,255,0.08);
+        }
+
+        .experience-card:hover::after {
+            opacity: 1;
+        }
+
+        .experience-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            margin-bottom: 18px;
+            border-radius: 14px;
+            background: rgba(255,255,255,0.10);
+            border: 1px solid rgba(255,255,255,0.13);
+            font-size: 22px;
+            transition: transform 0.35s ease, background 0.35s ease;
+        }
+
+        .experience-card:hover .experience-icon {
+            transform: rotate(-4deg) scale(1.08);
+            background: rgba(255,255,255,0.15);
+        }
+
+        .experience-card h3 {
+            color: #FFFDF7;
+            font-size: 1.12rem;
+            line-height: 1.3;
+            font-weight: 800;
+            margin-bottom: 6px;
+        }
+
+        .experience-card p {
+            color: rgba(255,255,255,0.68);
+            font-size: 0.88rem;
+            line-height: 1.6;
+        }
+
+        .experience-button-primary {
+            background: #FFFDF7;
+            color: #244B5A;
+            box-shadow: 0 8px 22px rgba(0,0,0,0.10);
+        }
+
+        .experience-button-primary:hover {
+            background: #F7F5EC;
+            transform: translateY(-2px);
+        }
+
+        .experience-button-secondary {
+            background: #A98770;
+            color: #FFFDF7;
+            box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+        }
+
+        .experience-button-secondary:hover {
+            background: #B99373;
+            transform: translateY(-2px);
+        }
+
+        .experience-button-primary,
+        .experience-button-secondary {
+            transition:
+                transform 0.25s ease,
+                background 0.25s ease,
+                box-shadow 0.25s ease;
+        }
+
+        .experience-orb {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border-radius: 999px;
+            background: rgba(255,255,255,0.40);
+            animation: experience-float 4s ease-in-out infinite;
+            pointer-events: none;
+        }
+
+        .experience-orb.one {
+            top: 22%;
+            left: 51%;
+        }
+
+        .experience-orb.two {
+            top: 70%;
+            left: 46%;
+            width: 5px;
+            height: 5px;
+            animation-delay: 1s;
+        }
+
+        .experience-orb.three {
+            right: 8%;
+            top: 25%;
+            width: 6px;
+            height: 6px;
+            animation-delay: 1.8s;
+        }
+
+        @keyframes experience-float {
+            0%, 100% {
+                transform: translateY(0) scale(1);
+                opacity: 0.35;
+            }
+            50% {
+                transform: translateY(-12px) scale(1.15);
+                opacity: 0.75;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .experience-grid {
+                gap: 14px;
+            }
+
+            .experience-card {
+                min-height: 150px;
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .digital-experience {
+                border-radius: 26px;
+            }
+
+            .experience-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .experience-card {
+                min-height: auto;
+            }
+
+            .experience-orb {
+                display: none;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .experience-card,
+            .experience-icon,
+            .experience-button-primary,
+            .experience-button-secondary,
+            .experience-orb {
+                animation: none !important;
+                transition: none !important;
+            }
+        }
+
+
+
+        /* =========================================================
+           TIKTOK VIDEO SLIDE — ALTERNATIF VERTICAL STORY
+        ========================================================= */
+
+        .tiktok-slide {
+            position: relative;
+            overflow: hidden;
+            isolation: isolate;
+            background:
+                radial-gradient(circle at 15% 15%, rgba(217,185,165,0.24), transparent 25%),
+                radial-gradient(circle at 82% 85%, rgba(201,167,123,0.18), transparent 28%),
+                linear-gradient(135deg, #243B40 0%, #183E4A 48%, #4A3428 100%);
+            box-shadow: 0 28px 70px rgba(36,59,64,0.18);
+        }
+
+        .tiktok-slide::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(105deg, rgba(24,62,74,0.98) 0%, rgba(24,62,74,0.82) 48%, rgba(74,52,40,0.28) 100%);
+            z-index: -1;
+        }
+
+        .tiktok-slide::after {
+            content: '';
+            position: absolute;
+            width: 360px;
+            height: 360px;
+            right: -130px;
+            top: -150px;
+            border-radius: 999px;
+            border: 1px solid rgba(255,255,255,0.12);
+            box-shadow: 0 0 0 70px rgba(255,255,255,0.025), 0 0 0 140px rgba(255,255,255,0.018);
+            pointer-events: none;
+        }
+
+        .tiktok-content {
+            position: relative;
+            z-index: 3;
+            color: #E8D9CB;
+        }
+
+        /* Palet teks hangat agar tidak terlalu putih */
+        .tiktok-slide .tiktok-badge {
+            color: #E6D7C8;
+        }
+
+        .tiktok-slide .tiktok-meta-item {
+            color: rgba(232, 217, 203, 0.82);
+        }
+
+        .tiktok-slide .tiktok-meta-item strong {
+            color: #D9B9A5;
+        }
+
+        .tiktok-slide .tiktok-phone-label {
+            color: #FFFDF7;
+        }
+
+        .tiktok-phone-wrap {
+            position: relative;
+            width: min(260px, 42vw);
+            aspect-ratio: 9 / 16;
+            flex: 0 0 auto;
+            transform: rotate(2deg);
+            transition: transform .45s ease;
+        }
+
+        .tiktok-video-link:hover .tiktok-phone-wrap {
+            transform: rotate(0deg) translateY(-7px) scale(1.025);
+        }
+
+        .tiktok-phone {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            border: 8px solid rgba(255,255,255,0.94);
+            border-radius: 2rem;
+            background: #16272B;
+            box-shadow: 0 24px 55px rgba(0,0,0,0.34), 0 0 0 1px rgba(255,255,255,0.12);
+        }
+
+        .tiktok-phone img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            filter: saturate(.82) contrast(1.02);
+            transition: transform .7s ease, filter .4s ease;
+        }
+
+        .tiktok-video-link:hover .tiktok-phone img {
+            transform: scale(1.06);
+            filter: saturate(1) contrast(1.04);
+        }
+
+        .tiktok-phone::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, rgba(0,0,0,.16), transparent 35%, rgba(0,0,0,.48) 100%);
+            pointer-events: none;
+        }
+
+        .tiktok-phone-top {
+            position: absolute;
+            top: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 82px;
+            height: 19px;
+            border-radius: 999px;
+            background: rgba(0,0,0,.72);
+            z-index: 5;
+        }
+
+        .tiktok-phone-label {
+            position: absolute;
+            left: 14px;
+            bottom: 16px;
+            z-index: 6;
+            color: white;
+            font-size: .68rem;
+            font-weight: 800;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+            text-shadow: 0 2px 8px rgba(0,0,0,.45);
+        }
+
+        .tiktok-phone-side {
+            position: absolute;
+            right: 9px;
+            bottom: 45px;
+            z-index: 6;
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+        }
+
+        .tiktok-phone-side span {
+            width: 31px;
+            height: 31px;
+            display: grid;
+            place-items: center;
+            border-radius: 999px;
+            background: rgba(0,0,0,.42);
+            color: white;
+            font-size: .75rem;
+            backdrop-filter: blur(5px);
+        }
+
+        .tiktok-play {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 76px;
+            height: 76px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 999px;
+            background: rgba(255,255,255,.95);
+            color: #183E4A;
+            box-shadow: 0 12px 35px rgba(0,0,0,.28), 0 0 0 10px rgba(255,255,255,.12);
+            transition: transform .35s ease, box-shadow .35s ease;
+            z-index: 8;
+            font-size: 1.15rem;
+            padding-left: 4px;
+        }
+
+        .tiktok-video-link:hover .tiktok-play {
+            transform: translate(-50%, -50%) scale(1.1);
+            box-shadow: 0 18px 42px rgba(0,0,0,.34), 0 0 0 14px rgba(255,255,255,.10);
+        }
+
+        .tiktok-video-link {
+            display: block;
+            transition: transform .3s ease;
+        }
+
+        .tiktok-video-link:hover {
+            transform: translateY(-2px);
+        }
+
+        .tiktok-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 13px;
+            border-radius: 999px;
+            background: rgba(255,255,255,.10);
+            border: 1px solid rgba(255,255,255,.18);
+            color: #FFFDF7;
+            font-size: .68rem;
+            font-weight: 800;
+            letter-spacing: .14em;
+            text-transform: uppercase;
+            backdrop-filter: blur(10px);
+        }
+
+        .tiktok-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 999px;
+            background: #D9B9A5;
+            box-shadow: 0 0 0 5px rgba(217,185,165,.12);
+        }
+
+        .tiktok-arrow {
+            transition: transform .25s ease;
+        }
+
+        .tiktok-video-link:hover .tiktok-arrow {
+            transform: translateX(5px);
+        }
+
+        .tiktok-meta {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 10px;
+            margin-top: 24px;
+            max-width: 520px;
+        }
+
+        .tiktok-meta-item {
+            padding: 11px 13px;
+            border-radius: 14px;
+            background: rgba(255,255,255,.07);
+            border: 1px solid rgba(255,255,255,.10);
+            color: rgba(255,255,255,.78);
+            font-size: .72rem;
+            line-height: 1.35;
+            backdrop-filter: blur(8px);
+        }
+
+        .tiktok-meta-item strong {
+            display: block;
+            color: white;
+            font-size: .78rem;
+            margin-bottom: 3px;
+        }
+
+        @media (max-width: 767px) {
+            .tiktok-slide {
+                border-radius: 1.5rem;
+            }
+
+            .tiktok-phone-wrap {
+                width: min(220px, 63vw);
+                margin: 0 auto;
+            }
+
+            .tiktok-slide::before {
+                background: linear-gradient(180deg, rgba(24,62,74,.76), rgba(24,62,74,.96) 62%);
+            }
+
+            .tiktok-meta {
+                grid-template-columns: 1fr;
+            }
+
+            .tiktok-play {
+                width: 64px;
+                height: 64px;
+            }
+        }
+
+        /* =========================================================
+           MOBILE
+        ========================================================= */
+
+        @media (max-width: 640px) {
+
+            .marquee-content {
+
+                animation-duration:
+                    22s;
+
+            }
+
+            .lightbox img {
+
+                max-width:
+                    96%;
+
+            }
+
+        }
+
+
+    </style>
+
+
+<style>
+/* ===== TIMELINE SEJARAH INTERAKTIF ===== */
+.history-timeline{position:relative}
+.history-line{position:absolute;left:50%;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,#B99373,#D9B9A5,#80624B);transform:translateX(-50%);opacity:.65}
+.history-item{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;margin-bottom:3.5rem}
+.history-item:nth-child(even) .history-card{grid-column:2}
+.history-item:nth-child(even) .history-year{grid-column:1;grid-row:1}
+.history-card{background:rgba(255,253,247,.88);border:1px solid rgba(177,140,112,.45);border-radius:1.5rem;padding:1.5rem;box-shadow:0 16px 40px rgba(74,52,40,.08);transition:transform .35s ease,box-shadow .35s ease,border-color .35s ease}
+.history-card:hover{transform:translateY(-6px);box-shadow:0 22px 55px rgba(74,52,40,.14);border-color:#B99373}
+.history-year{display:flex;align-items:center;justify-content:center;position:relative;z-index:2}
+.history-badge{width:92px;height:92px;border-radius:999px;background:#4A3428;color:#E6D7C8;border:8px solid #F7F5EC;box-shadow:0 0 0 1px #B99373,0 10px 30px rgba(74,52,40,.18);display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800}
+.history-dot{position:absolute;left:50%;top:50%;width:18px;height:18px;border-radius:999px;background:#B99373;border:4px solid #F7F5EC;transform:translate(-50%,-50%);z-index:3}
+.history-card .history-number{font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:#80624B;font-weight:800}
+.history-card h3{color:#4A3428}
+.history-card p{color:#5f5148}
+.history-note{background:linear-gradient(135deg,#E6D7C8,#F7F5EC);border:1px solid #C8AA8D;color:#62483A}
+@media(max-width:767px){.history-line{left:18px}.history-item,.history-item:nth-child(even){display:block;margin-left:38px;margin-bottom:2rem}.history-year,.history-item:nth-child(even) .history-year{position:absolute;left:-56px;top:18px;display:block}.history-badge{width:44px;height:44px;border-width:4px;font-size:.65rem}.history-badge small{display:none}.history-dot{display:none}.history-card,.history-item:nth-child(even) .history-card{grid-column:auto}.history-card{padding:1.2rem}}
+</style>
+
+<style>
+/* =========================================================
+   MODERN MICRO-ANIMATIONS + NIGHT HERITAGE MODE
+========================================================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* --- Micro interaction baseline --- */
+button, a, .history-card, img, .digital-card, .experience-card {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Gentle image movement */
+.image-hover,
+.clickable-image {
+    transition: transform .65s cubic-bezier(.2,.75,.25,1), filter .45s ease, box-shadow .45s ease;
+}
+
+.image-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 24px 55px rgba(74,52,40,.16);
+}
+
+.image-hover:hover .clickable-image {
+    transform: scale(1.035);
+    filter: saturate(1.06) contrast(1.02);
+}
+
+/* Section reveal becomes more alive */
+.reveal {
+    will-change: opacity, transform;
+}
+
+.reveal.active {
+    animation: sectionSettle .8s cubic-bezier(.2,.7,.2,1) both;
+}
+
+@keyframes sectionSettle {
+    0% { opacity: 0; transform: translateY(28px); }
+    70% { opacity: 1; transform: translateY(-2px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Stagger common cards after section appears */
+.reveal.active .history-card,
+.reveal.active .tiktok-slide,
+.reveal.active .digital-card,
+.reveal.active .experience-card {
+    animation: cardRise .7s cubic-bezier(.2,.7,.2,1) both;
+}
+
+.reveal.active .history-item:nth-child(2) .history-card { animation-delay: .08s; }
+.reveal.active .history-item:nth-child(3) .history-card { animation-delay: .16s; }
+.reveal.active .history-item:nth-child(4) .history-card { animation-delay: .24s; }
+.reveal.active .history-item:nth-child(5) .history-card { animation-delay: .32s; }
+
+@keyframes cardRise {
+    from { opacity: 0; transform: translateY(16px) scale(.985); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Floating accent for timeline nodes */
+.history-badge {
+    transition: transform .35s ease, box-shadow .35s ease;
+}
+
+.history-item:hover .history-badge {
+    transform: scale(1.07);
+    box-shadow: 0 0 0 1px #B99373, 0 14px 34px rgba(74,52,40,.24);
+}
+
+/* Buttons get a subtle lift */
+a.rounded-full, button.rounded-full {
+    transition: transform .25s ease, box-shadow .3s ease, background-color .3s ease;
+}
+
+a.rounded-full:hover, button.rounded-full:hover {
+    transform: translateY(-2px);
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+    }
+}
+
+</style>
+
+
+
+<style>
+/* =========================================================
+   FITUR #8 — MICRO-ANIMATION MODERN HERITAGE
+   Hanya menambah interaksi visual kecil, tanpa mengubah isi.
+========================================================= */
+
+/* Card terasa hidup saat pointer melewati */
+.history-card,
+.digital-card,
+.experience-card,
+.shadow-card,
+.tiktok-slide {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    transition:
+        transform .38s cubic-bezier(.2,.75,.25,1),
+        box-shadow .38s ease,
+        border-color .3s ease;
+}
+
+.history-card::after,
+.digital-card::after,
+.experience-card::after,
+.shadow-card::after,
+.tiktok-slide::after {
+    content: "";
+    position: absolute;
+    inset: -80% auto auto -45%;
+    width: 34%;
+    height: 220%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,253,247,.20),
+        transparent
+    );
+    transform: rotate(18deg) translateX(-180%);
+    transition: transform .85s cubic-bezier(.2,.7,.2,1);
+    pointer-events: none;
+    z-index: 20;
+}
+
+.history-card:hover::after,
+.digital-card:hover::after,
+.experience-card:hover::after,
+.shadow-card:hover::after,
+.tiktok-slide:hover::after {
+    transform: rotate(18deg) translateX(620%);
+}
+
+.history-card:hover,
+.digital-card:hover,
+.experience-card:hover,
+.shadow-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 24px 55px rgba(74,52,40,.15);
+}
+
+/* Tombol lebih responsif */
+button,
+a.rounded-full,
+a[class*="px-"] {
+    -webkit-tap-highlight-color: transparent;
+}
+
+button:active,
+a.rounded-full:active,
+a[class*="px-"]:active {
+    transform: translateY(1px) scale(.975) !important;
+}
+
+/* Gambar mendapatkan efek zoom yang sangat halus */
+img.clickable-image,
+.image-hover img {
+    will-change: transform;
+    transition:
+        transform .65s cubic-bezier(.2,.75,.25,1),
+        filter .45s ease;
+}
+
+.image-hover:hover img,
+img.clickable-image:hover {
+    transform: scale(1.035);
+}
+
+/* TikTok phone sedikit mengambang */
+.tiktok-video-link:hover .tiktok-phone-wrap {
+    filter: drop-shadow(0 22px 30px rgba(0,0,0,.12));
+}
+
+/* Ikon / badge tidak kaku */
+.history-badge,
+.tiktok-badge,
+.night-toggle-icon {
+    will-change: transform;
+}
+
+/* Ripple saat klik */
+.micro-ripple {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    background: rgba(255,253,247,.48);
+    transform: translate(-50%, -50%) scale(0);
+    pointer-events: none;
+    animation: microRipple .6s ease-out forwards;
+    z-index: 99;
+}
+
+@keyframes microRipple {
+    0% {
+        opacity: .65;
+        transform: translate(-50%, -50%) scale(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(18);
+    }
+}
+
+/* Aksen judul muncul sedikit dari bawah */
+.reveal.active h2,
+.reveal.active h3 {
+    animation: headingSoft .7s cubic-bezier(.2,.7,.2,1) both;
+}
+
+@keyframes headingSoft {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Jangan jalankan animasi jika pengguna meminta reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .history-card,
+    .digital-card,
+    .experience-card,
+    .shadow-card,
+    .tiktok-slide,
+    img.clickable-image,
+    .image-hover img {
+        transition: none !important;
+    }
+
+    .micro-ripple {
+        display: none !important;
+    }
+}
+</style>
+
+
+
+<style id="direct-video-styles">
+/* Video dokumentasi yang diputar langsung di website */
+#video-makam video {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+#video-makam video:focus {
+    outline: 2px solid rgba(201,167,123,.8);
+    outline-offset: 3px;
+}
+</style>
+
+<style id="header-decoration-styles">
+/* =========================================================
+   HEADER HERITAGE — warna & ornamen ringan
+   ========================================================= */
+
+.main-navbar {
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 8% 50%, rgba(201,167,123,.13), transparent 18%),
+        radial-gradient(circle at 92% 50%, rgba(143,198,204,.13), transparent 18%),
+        linear-gradient(90deg, rgba(255,253,247,.98), rgba(247,245,236,.96), rgba(255,253,247,.98));
+}
+
+/* Ornamen samping: garis geometris, bukan pola titik */
+.main-navbar::before,
+.main-navbar::after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    bottom: 12px;
+    width: 170px;
+    pointer-events: none;
+    opacity: .9;
+    z-index: 0;
+}
+
+.main-navbar::before {
+    left: 0;
+    border-right: 1px solid rgba(79,135,144,.16);
+    background:
+        linear-gradient(135deg, transparent 0 43%, rgba(185,147,115,.22) 44% 46%, transparent 47% 100%),
+        linear-gradient(45deg, transparent 0 53%, rgba(79,135,144,.16) 54% 56%, transparent 57% 100%);
+    background-size: 34px 34px;
+    -webkit-mask-image: linear-gradient(to right, black, transparent);
+    mask-image: linear-gradient(to right, black, transparent);
+}
+
+.main-navbar::after {
+    right: 0;
+    border-left: 1px solid rgba(79,135,144,.16);
+    background:
+        linear-gradient(45deg, transparent 0 43%, rgba(185,147,115,.22) 44% 46%, transparent 47% 100%),
+        linear-gradient(135deg, transparent 0 53%, rgba(79,135,144,.16) 54% 56%, transparent 57% 100%);
+    background-size: 34px 34px;
+    -webkit-mask-image: linear-gradient(to left, black, transparent);
+    mask-image: linear-gradient(to left, black, transparent);
+}
+
+/* Garis ornamen utama di bawah header */
+.header-ornament {
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    pointer-events: none;
+}
+
+.header-ornament::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 3px;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        rgba(79,135,144,.28) 12%,
+        #4F8790 28%,
+        #B99373 50%,
+        #4F8790 72%,
+        rgba(79,135,144,.28) 88%,
+        transparent 100%
+    );
+}
+
+.header-ornament::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: linear-gradient(
+        90deg,
+        #B99373 0%,
+        #C9A77B 25%,
+        #4F8790 50%,
+        #C9A77B 75%,
+        #B99373 100%
+    );
+    opacity: .9;
+}
+
+.ornament-line {
+    position: relative;
+    z-index: 2;
+    width: 42px;
+    height: 1px;
+    background: #B99373;
+    opacity: .85;
+}
+
+.ornament-line-left {
+    width: 70px;
+}
+
+.ornament-line-right {
+    width: 70px;
+}
+
+.ornament-diamond {
+    position: relative;
+    z-index: 4;
+    color: #B99373;
+    font-size: 9px;
+    line-height: 1;
+    text-shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+.ornament-diamond.small {
+    color: #4F8790;
+    font-size: 7px;
+}
+
+.navbar-inner {
+    position: relative;
+    z-index: 2;
+}
+
+.navbar-inner {
+    position: relative;
+    z-index: 2;
+}
+
+.nav-link-heritage {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px 2px;
+    transition: color .25s ease, transform .25s ease;
+}
+
+.nav-link-heritage::after {
+    content: "";
+    position: absolute;
+    left: 18px;
+    right: 0;
+    bottom: 3px;
+    height: 2px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #B99373, #4F8790);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .3s ease;
+}
+
+.nav-link-heritage:hover {
+    color: #4F8790;
+    transform: translateY(-1px);
+}
+
+.nav-link-heritage:hover::after {
+    transform: scaleX(1);
+}
+
+.nav-icon {
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(79,135,144,.09);
+    border: 1px solid rgba(79,135,144,.14);
+    font-size: 14px;
+    transition: transform .25s ease, background .25s ease;
+}
+
+.nav-link-heritage:hover .nav-icon {
+    transform: scale(1.08) rotate(-3deg);
+    background: rgba(201,167,123,.18);
+}
+
+.location-button-heritage {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.20);
+    background: linear-gradient(135deg, #4F8790, #2E6973);
+    box-shadow: 0 8px 22px rgba(46,105,115,.18);
+}
+
+.location-button-heritage::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(105deg, transparent 35%, rgba(255,255,255,.20) 50%, transparent 65%);
+    transform: translateX(-120%);
+    transition: transform .6s ease;
+}
+
+.location-button-heritage:hover::after {
+    transform: translateX(120%);
+}
+
+.running-heritage {
+    background:
+        radial-gradient(circle at 0 50%, rgba(201,167,123,.20), transparent 18%),
+        radial-gradient(circle at 100% 50%, rgba(79,135,144,.18), transparent 18%),
+        linear-gradient(90deg, #4A3428, #3E2B22, #4A3428);
+    border-top: 1px solid rgba(201,167,123,.28);
+    border-bottom: 1px solid rgba(201,167,123,.42);
+}
+
+.running-heritage .marquee-content span {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    min-height: 20px;
+    padding-right: 62px;
+}
+
+.running-heritage .marquee-content span::after {
+    content: "✦";
+    position: absolute;
+    right: 27px;
+    color: #C9A77B;
+    font-size: 10px;
+    opacity: .85;
+}
+
+.running-heritage .marquee-content span:nth-child(2n)::after {
+    color: #8FC6CC;
+}
+
+@media (max-width: 767px) {
+    .main-navbar::before,
+    .main-navbar::after {
+        width: 70px;
+        opacity: .55;
+    }
+
+    .header-ornament {
+        gap: 4px;
+    }
+
+    .ornament-line {
+        width: 24px;
+    }
+
+    .ornament-line-left,
+    .ornament-line-right {
+        width: 38px;
+    }
+
+    .nav-link-heritage::after {
+        display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .nav-link-heritage,
+    .nav-icon,
+    .location-button-heritage::after {
+        transition: none;
+    }
+}
+</style>
+
+<style id="kidul-gallery-styles">
+/* Galeri foto sederhana dengan pergantian otomatis */
+.kidul-gallery-wrap{max-width:900px;margin:0 auto}
+.kidul-gallery-shell{position:relative;overflow:hidden;border-radius:1rem;background:#eee;box-shadow:0 12px 30px rgba(36,59,64,.10)}
+.kidul-gallery-track{position:relative;height:480px}
+.kidul-gallery-slide{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity .5s ease}
+.kidul-gallery-slide.is-active{opacity:1;visibility:visible}
+.kidul-gallery-slide img{width:100%;height:100%;object-fit:cover;display:block}
+.kidul-gallery-dots{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);z-index:5;display:flex;gap:7px;padding:6px 10px;border-radius:999px;background:rgba(0,0,0,.28)}
+.kidul-gallery-dot{width:7px;height:7px;border:0;border-radius:50%;padding:0;background:rgba(255,255,255,.55)}
+.kidul-gallery-dot.is-active{background:#fff;transform:scale(1.25)}
+@media(max-width:767px){.kidul-gallery-track{height:300px}}
+@media(prefers-reduced-motion:reduce){.kidul-gallery-slide{transition:none}}
+</style>
+
+
+<style id="mobile-responsive-final">
+/* =========================================================
+   MOBILE RESPONSIVE — TAMPILAN HP LEBIH RAPI
+   ========================================================= */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img, video {
+    max-width: 100%;
+}
+
+@media (max-width: 767px) {
+    /* Jarak umum agar tidak terlalu mepet ke sisi layar */
+    section {
+        scroll-margin-top: 78px;
+    }
+
+    .max-w-7xl,
+    .max-w-6xl,
+    .max-w-5xl,
+    .max-w-4xl,
+    .max-w-3xl,
+    .max-w-2xl {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Header / navigasi */
+    header {
+        overflow: hidden;
+    }
+
+    nav {
+        max-width: 100%;
+    }
+
+    nav a,
+    nav button {
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    /* Judul hero tidak sampai keluar layar */
+    h1 {
+        font-size: clamp(2.05rem, 10vw, 3.4rem) !important;
+        line-height: 1.02 !important;
+        overflow-wrap: anywhere;
+    }
+
+    h2 {
+        font-size: clamp(1.65rem, 8vw, 2.35rem) !important;
+        line-height: 1.12 !important;
+    }
+
+    h3 {
+        overflow-wrap: anywhere;
+    }
+
+    /* Tombol jangan melebar melewati layar */
+    a[class*="rounded"],
+    button[class*="rounded"] {
+        max-width: 100%;
+    }
+
+    /* Kartu / konten yang menggunakan flex */
+    .flex-row {
+        flex-wrap: wrap;
+    }
+
+    /* Galeri foto */
+    .kidul-gallery-wrap {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .kidul-gallery-shell {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        border-radius: 1.25rem;
+    }
+
+    .kidul-gallery-slide {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .kidul-gallery-slide img {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-height: 70vh;
+        object-fit: cover;
+    }
+
+    /* Dot galeri lebih mudah disentuh */
+    .kidul-gallery-dots,
+    .kidul-gallery-controls {
+        max-width: 100%;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    .kidul-gallery-dots::-webkit-scrollbar,
+    .kidul-gallery-controls::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Video TikTok / kartu video */
+    .video-story-card,
+    .tiktok-slide {
+        width: 100%;
+        min-width: 0;
+        overflow: hidden;
+        border-radius: 1.35rem !important;
+    }
+
+    .video-story-card > *,
+    .tiktok-slide > * {
+        min-width: 0;
+    }
+
+    .video-story-card {
+        gap: 1.5rem !important;
+        padding-left: 1.15rem !important;
+        padding-right: 1.15rem !important;
+    }
+
+    .video-phone,
+    .tiktok-phone-wrap {
+        width: min(78vw, 285px) !important;
+        max-width: 285px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .video-phone {
+        transform: rotate(0deg) !important;
+    }
+
+    .video-phone-player,
+    .tiktok-phone img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Teks video */
+    .video-story-card p,
+    .tiktok-slide p {
+        overflow-wrap: anywhere;
+    }
+
+    .tiktok-meta {
+        grid-template-columns: 1fr !important;
+        gap: .65rem !important;
+    }
+
+    .tiktok-meta-item {
+        width: 100%;
+    }
+
+    /* Semua gambar dekorasi tetap berada di layar */
+    .absolute {
+        max-width: 100%;
+    }
+
+    /* Tabel / elemen lebar tidak membuat halaman bergeser ke samping */
+    table {
+        display: block;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    /* Footer */
+    footer .grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    footer {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 420px) {
+    body {
+        font-size: 14px;
+    }
+
+    .video-phone,
+    .tiktok-phone-wrap {
+        width: min(72vw, 255px) !important;
+        max-width: 255px;
+    }
+
+    .kidul-gallery-wrap {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .kidul-gallery-shell {
+        border-radius: 1rem;
+    }
+
+    /* Tombol full-width hanya ketika memang berada di area mobile */
+    .mobile-full-width {
+        width: 100%;
+    }
+}
+</style>
+
+
+<style id="mobile-hamburger-menu">
+.mobile-menu-button{width:44px;height:44px;border:1px solid rgba(214,170,107,.55);border-radius:14px;background:rgba(255,248,232,.96);display:inline-flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;box-shadow:0 8px 20px rgba(63,119,126,.12);cursor:pointer;-webkit-tap-highlight-color:transparent}
+.mobile-menu-button span{display:block;width:20px;height:2px;border-radius:99px;background:#3f777e;transition:transform .2s ease,opacity .2s ease}
+.mobile-menu-button.is-open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.mobile-menu-button.is-open span:nth-child(2){opacity:0}
+.mobile-menu-button.is-open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mobile-menu{position:absolute;top:100%;left:0;right:0;padding:10px 16px 14px;background:rgba(255,250,239,.98);border-top:1px solid rgba(214,170,107,.28);box-shadow:0 18px 30px rgba(54,75,77,.12);opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity .18s ease,transform .18s ease,visibility .18s ease}
+.mobile-menu.is-open{opacity:1;visibility:visible;transform:translateY(0)}
+.mobile-menu-inner{max-width:680px;margin:0 auto;display:grid;gap:7px}
+.mobile-menu-link{display:flex;align-items:center;gap:12px;min-height:48px;padding:11px 14px;border-radius:14px;color:#3f777e;background:rgba(255,255,255,.72);border:1px solid rgba(142,95,69,.14);font-weight:800;font-size:.95rem;text-decoration:none}
+.mobile-menu-link span{width:30px;height:30px;display:inline-flex;align-items:center;justify-content:center;border-radius:9px;background:#e7f0ed;color:#8e5f45;flex:0 0 30px}
+.mobile-menu-link:active{transform:scale(.985)}
+@media (min-width:768px){.mobile-menu{display:none!important}}
+</style>
+
+
+<style id="soft-heritage-background">
+/* =========================================================
+   BACKGROUND — tidak lagi putih polos
+   ========================================================= */
+html, body {
+    background: #EEF5F3 !important;
+}
+
+body.bg-pattern {
+    background:
+        radial-gradient(circle at 8% 12%, rgba(79,135,144,.14) 0 110px, transparent 260px),
+        radial-gradient(circle at 92% 24%, rgba(214,170,107,.13) 0 100px, transparent 250px),
+        radial-gradient(circle at 15% 78%, rgba(142,95,69,.08) 0 90px, transparent 240px),
+        linear-gradient(180deg, #EEF5F3 0%, #F7F5EC 38%, #F1F6F4 70%, #F7F1E8 100%) !important;
+    background-attachment: fixed;
+}
+
+/* Bagian utama dibuat bergantian agar halaman terasa lebih hidup */
+#hero {
+    background:
+        linear-gradient(135deg, rgba(63,119,126,.13), rgba(247,245,236,.40) 48%, rgba(214,170,107,.10));
+}
+
+#pengalaman-digital,
+#aktivitas,
+#lokasi {
+    background: rgba(255,253,247,.28);
+}
+
+#daya-tarik,
+#tentang,
+#umkm,
+#timeline-sejarah {
+    background: rgba(226,239,237,.42);
+}
+
+#video-makam,
+#galeri-kidul {
+    background: rgba(247,241,232,.55) !important;
+}
+
+/* Galeri sebelumnya putih penuh; sekarang tetap terang tetapi berwarna */
+#galeri-kidul {
+    border-top: 1px solid rgba(79,135,144,.12);
+    border-bottom: 1px solid rgba(185,147,115,.16);
+}
+
+/* Ornamen titik sangat halus di background */
+#tentang,
+#daya-tarik,
+#aktivitas,
+#umkm,
+#lokasi,
+#timeline-sejarah {
+    position: relative;
+    overflow: hidden;
+}
+
+#tentang::before,
+#daya-tarik::before,
+#aktivitas::before,
+#umkm::before,
+#lokasi::before,
+#timeline-sejarah::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: .34;
+    background-image: radial-gradient(rgba(79,135,144,.16) 1px, transparent 1px);
+    background-size: 28px 28px;
+    mask-image: linear-gradient(to bottom, transparent, black 18%, black 82%, transparent);
+}
+
+@media (max-width: 767px) {
+    body.bg-pattern {
+        background-attachment: scroll !important;
+        background:
+            radial-gradient(circle at 5% 10%, rgba(79,135,144,.12), transparent 180px),
+            radial-gradient(circle at 95% 34%, rgba(214,170,107,.11), transparent 170px),
+            linear-gradient(180deg, #EEF5F3 0%, #F7F5EC 45%, #F1F6F4 100%) !important;
+    }
+}
+</style>
+
+
+<style id="mobile-menu-final-fix">
+/* FIX MENU GARIS 3 UNTUK HP */
+.mobile-menu-button {
+    position: relative;
+    z-index: 100;
+    flex: 0 0 44px;
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+    .mobile-menu-button {
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 44px;
+        height: 44px;
+        min-width: 44px;
+        min-height: 44px;
+        margin-left: auto;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .mobile-menu {
+        z-index: 99;
+        display: block !important;
+    }
+
+    .mobile-menu.is-open {
+        display: block !important;
+    }
+}
+</style>
+
+
+
+<style id="hamburger-reliable-final-fix">
+/* FIX FINAL HAMBURGER MOBILE: dropdown tidak terpotong */
+@media (max-width: 767px) {
+  header.main-navbar { overflow: visible !important; z-index: 9999 !important; }
+  header.main-navbar .navbar-inner { overflow: visible !important; }
+  #mobileMenuButton.mobile-menu-button {
+    display: inline-flex !important; visibility: visible !important; opacity: 1 !important;
+    position: relative !important; z-index: 10002 !important; flex: 0 0 44px !important;
+    width: 44px !important; height: 44px !important; min-width: 44px !important;
+    min-height: 44px !important; cursor: pointer !important;
+  }
+  #mobileMenu.mobile-menu {
+    display: block !important; position: absolute !important; top: 100% !important;
+    left: 0 !important; right: 0 !important; width: 100% !important;
+    max-height: calc(100vh - 90px); overflow-y: auto; box-sizing: border-box;
+    z-index: 10001 !important; background: #fffaf0 !important;
+    opacity: 0; visibility: hidden; pointer-events: none;
+    transform: translateY(-8px);
+  }
+  #mobileMenu.mobile-menu.is-open {
+    display: block !important; opacity: 1 !important; visibility: visible !important;
+    pointer-events: auto !important; transform: translateY(0) !important;
+  }
+  #mobileMenu .mobile-menu-inner { display: grid !important; gap: 7px !important; }
+  #mobileMenu .mobile-menu-link { display: flex !important; min-height: 48px; }
+}
+@media (min-width: 768px) {
+  #mobileMenuButton.mobile-menu-button { display: none !important; }
+  #mobileMenu.mobile-menu { display: none !important; }
+}
+</style>
+
+</head>
+
+
+<body
+    class="bg-cream-warm text-slate-deep font-sans antialiased selection:bg-pale-ocre selection:text-heritage-dark bg-pattern"
+>
+
+
+    <!-- ========================================================= -->
+    <!-- SCROLL PROGRESS -->
+    <!-- ========================================================= -->
+
+    <div id="scroll-progress"></div>
+
+
+    <!-- ========================================================= -->
+    <!-- NAVBAR -->
+    <!-- ========================================================= -->
+
+    <header
+        class="fixed top-0 left-0 right-0 z-50 bg-cream-warm/95 backdrop-blur-md border-b border-powder-blue main-navbar"
+    >
+
+        <div class="header-ornament" aria-hidden="true">
+            <span class="ornament-line ornament-line-left"></span>
+            <span class="ornament-diamond">◆</span>
+            <span class="ornament-line"></span>
+            <span class="ornament-diamond small">◇</span>
+            <span class="ornament-line"></span>
+            <span class="ornament-diamond">◆</span>
+            <span class="ornament-line ornament-line-right"></span>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 navbar-inner">
+
+            <div class="flex items-center justify-between h-20">
+
+
+                <!-- LOGO -->
+
+                <a href="#" class="flex items-center gap-3">
+
+                    <div
+                        class="w-10 h-10 rounded-full bg-brown-walnut text-white flex items-center justify-center font-bold text-lg shadow-sm"
+                    >
+                        SB
+                    </div>
+
+
+                    <div>
+
+                        <span
+                            class="block font-bold text-lg text-heritage-dark tracking-tight leading-none"
+                        >
+                            SUNAN BEJAGUNG
+                        </span>
+
+                        <span
+                            class="text-xs text-teal font-semibold tracking-widest uppercase"
+                        >
+                            KIDUL • TUBAN
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- NAVIGATION -->
+
+                <nav
+                    class="hidden md:flex items-center gap-8 font-semibold text-sm text-heritage-dark"
+                >
+
+                    <a
+                        href="#tentang"
+                        class="nav-link-heritage"
+                    >
+                        <span class="nav-icon">⌂</span>
+                        Tentang
+                    </a>
+
+                    <a
+                        href="#daya-tarik"
+                        class="nav-link-heritage"
+                    >
+                        <span class="nav-icon">⌖</span>
+                        Daya Tarik
+                    </a>
+
+                    <a
+                        href="#aktivitas"
+                        class="nav-link-heritage"
+                    >
+                        <span class="nav-icon">✦</span>
+                        Aktivitas
+                    </a>
+
+                    <a
+                        href="#umkm"
+                        class="nav-link-heritage"
+                    >
+                        <span class="nav-icon">♨</span>
+                        Kuliner
+                    </a>
+
+                    <a
+                        href="#lokasi"
+                        class="nav-link-heritage"
+                    >
+                        <span class="nav-icon">ⓘ</span>
+                        Informasi & Lokasi
+                    </a>
+
+                </nav>
+
+<!-- MOBILE MENU BUTTON -->
+
+                <button type="button" id="mobileMenuButton" class="mobile-menu-button md:hidden" aria-label="Buka menu navigasi" aria-controls="mobileMenu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+
+                <!-- BUTTON -->
+
+                <a
+                    href="#lokasi"
+                    class="location-button-heritage hidden sm:inline-flex px-5 py-2.5 rounded-full text-white font-bold text-sm transition"
+                >
+                    📍 Petunjuk Lokasi
+                </a>
+
+            </div>
+
+        </div>
+
+        <div id="mobileMenu" class="mobile-menu md:hidden" aria-hidden="true">
+            <nav class="mobile-menu-inner" aria-label="Navigasi mobile">
+                <a href="#tentang" class="mobile-menu-link"><span>⌂</span> Tentang</a>
+                <a href="#daya-tarik" class="mobile-menu-link"><span>⌖</span> Daya Tarik</a>
+                <a href="#aktivitas" class="mobile-menu-link"><span>✦</span> Aktivitas</a>
+                <a href="#umkm" class="mobile-menu-link"><span>♨</span> Kuliner</a>
+                <a href="#lokasi" class="mobile-menu-link"><span>ⓘ</span> Informasi &amp; Lokasi</a>
+            </nav>
+        </div>
+
+    </header>
+
+
+
+    <!-- ========================================================= -->
+    <!-- RUNNING TEXT -->
+    <!-- ========================================================= -->
+
+    <div
+        class="fixed top-20 left-0 right-0 z-40 text-brown-cream shadow-sm running-heritage"
+    >
+
+        <div class="marquee-wrapper py-2.5">
+
+            <div class="marquee-content text-xs sm:text-sm font-semibold">
+
+                <span>
+                    🕌 Selamat Datang di Makam Sunan Bejagung Kidul
+                </span>
+
+                <span>
+                    📍 Bejagung Kidul • Semanding • Tuban
+                </span>
+
+                <span>
+                    🕒 Terbuka 24 Jam
+                </span>
+
+                <span>
+                    🎟️ Tiket Masuk Gratis
+                </span>
+
+                <span>
+                    🌿 Wisata Religi • Sejarah • Budaya
+                </span>
+
+                <span>
+                    📸 Abadikan Momen Perjalananmu
+                </span>
+
+
+                <!-- DUPLIKASI UNTUK LOOP -->
+
+                <span>
+                    🕌 Selamat Datang di Makam Sunan Bejagung Kidul
+                </span>
+
+                <span>
+                    📍 Bejagung Kidul • Semanding • Tuban
+                </span>
+
+                <span>
+                    🕒 Terbuka 24 Jam
+                </span>
+
+                <span>
+                    🎟️ Tiket Masuk Gratis
+                </span>
+
+                <span>
+                    🌿 Wisata Religi • Sejarah • Budaya
+                </span>
+
+                <span>
+                    📸 Abadikan Momen Perjalananmu
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ========================================================= -->
+    <!-- HERO -->
+    <!-- ========================================================= -->
+
+    <section
+        id="hero"
+        class="relative pt-40 pb-16 lg:pt-48 lg:pb-24 overflow-hidden hero-glow"
+    >
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div
+                class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"
+            >
+
+
+                <!-- HERO TEXT -->
+
+                <div class="lg:col-span-7 space-y-6">
+
+
+                    <!-- BADGE -->
+
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brown-cream/70 border border-brown-taupe/40 text-brown-espresso text-xs font-bold shadow-sm"
+                    >
+
+                        <span class="live-badge">
+
+                            <span class="live-dot"></span>
+
+                        </span>
+
+                        WISATA RELIGI & SEJARAH TUBAN
+
+                    </div>
+
+
+
+                    <!-- TITLE -->
+
+                    <h1
+                        class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-heritage-dark leading-[1.15]"
+                    >
+
+                        Makam Sunan Bejagung
+
+                        <br>
+
+                        <span
+                            class="text-teal font-serif italic font-normal"
+                        >
+                            Feel the Legacy
+                        </span>
+
+                    </h1>
+
+
+
+                    <!-- DESCRIPTION -->
+
+                    <p
+                        class="text-lg text-slate-deep/90 leading-relaxed max-w-2xl"
+                    >
+
+                        Rasakan perjalanan wisata yang berbeda di Sunan
+                        Bejagung Kidul. Menelusuri jejak sejarah dan
+                        meresapi nilai religi dari kisah dakwah peninggalan
+                        Islam Nusantara yang terukir abadi di Tanah Tuban.
+
+                    </p>
+
+
+
+                    <!-- BUTTON -->
+
+                    <div class="pt-4 flex flex-wrap gap-4">
+
+                        <a
+                            href="#daya-tarik"
+                            class="px-7 py-3.5 rounded-full bg-brown-cocoa text-white font-bold hover:bg-brown-walnut shadow-md transition"
+                        >
+                            Jelajahi Kompleks →
+                        </a>
+
+                        <a
+                            href="#lokasi"
+                            class="px-7 py-3.5 rounded-full border-2 border-teal text-heritage-dark font-bold hover:bg-teal hover:text-white transition"
+                        >
+                            Lihat Peta Makam
+                        </a>
+
+                    </div>
+
+
+
+                    <!-- STATS -->
+
+                    <div
+                        class="pt-8 grid grid-cols-3 gap-4 border-t border-brown-taupe/60 mt-8"
+                    >
+
+                        <div>
+
+                            <span
+                                class="block text-2xl font-bold text-heritage-dark"
+                            >
+                                Abad 14
+                            </span>
+
+                            <span class="text-xs text-teal">
+                                Warisan Sejarah
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <span
+                                class="block text-2xl font-bold text-heritage-dark"
+                            >
+                                Bata Merah
+                            </span>
+
+                            <span class="text-xs text-teal">
+                                Arsitektur
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <span
+                                class="block text-2xl font-bold text-heritage-dark"
+                            >
+                                24 Jam
+                            </span>
+
+                            <span class="text-xs text-teal">
+                                Akses Peziarah
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- HERO IMAGE -->
+
+                <div class="lg:col-span-5">
+
+                    <div
+                        class="relative rounded-3xl overflow-hidden border-4 border-white shadow-2xl image-hover"
+                    >
+
+                        <img
+                            src="foto sunan bejagung.jpg"
+                            alt="Makam Sunan Bejagung Kidul"
+                            class="w-full h-[480px] object-cover clickable-image"
+                            onclick="openLightbox(this.src, this.alt)"
+                        >
+
+
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-heritage-dark/90 via-transparent to-transparent"
+                        ></div>
+
+
+                        <div
+                            class="absolute bottom-0 left-0 right-0 p-6 text-white"
+                        >
+
+                            <span
+                                class="text-xs font-semibold uppercase tracking-wider text-brown-sand"
+                            >
+                                Makam Sunan Bejagung Kidul
+                            </span>
+
+                            <h3 class="text-xl font-bold mt-1">
+                                Jejak Sejarah Islam di Tuban
+                            </h3>
+
+                            <p class="text-xs text-white/80 mt-1">
+                                Salah satu destinasi wisata religi dan sejarah
+                                di Kabupaten Tuban.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- ========================================================= -->
+    <!-- PENGALAMAN DIGITAL -->
+    <!-- ========================================================= -->
+
+    <section
+        id="pengalaman-digital"
+        class="py-16 sm:py-20 reveal"
+    >
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div
+                class="digital-experience rounded-[2rem] px-6 py-8 sm:px-10 sm:py-10 lg:px-14 lg:py-12"
+            >
+
+                <!-- Dekorasi kecil agar panel terasa hidup -->
+                <span class="experience-orb one"></span>
+                <span class="experience-orb two"></span>
+                <span class="experience-orb three"></span>
+
+                <div
+                    class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center"
+                >
+
+                    <!-- TEKS UTAMA -->
+                    <div class="lg:col-span-6 xl:col-span-5">
+
+                        <span
+                            class="experience-kicker block text-xs sm:text-sm font-extrabold uppercase mb-4"
+                        >
+                            PENGALAMAN DIGITAL
+                        </span>
+
+                        <h2
+                            class="experience-title text-3xl sm:text-4xl lg:text-[2.7rem] font-extrabold text-white leading-[1.12]"
+                        >
+                            Kenali tempatnya sebelum
+                            <br class="hidden sm:block">
+                            berangkat.
+                        </h2>
+
+                        <p
+                            class="experience-description mt-5 max-w-xl text-base sm:text-lg leading-relaxed"
+                        >
+                            Gunakan informasi lokasi, aktivitas, etika, dan kuliner
+                            untuk membuat kunjunganmu lebih terarah.
+                        </p>
+
+                        <div
+                            class="mt-7 flex flex-wrap gap-3"
+                        >
+
+                            <a
+                                href="#aktivitas"
+                                class="experience-button-primary inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-extrabold text-sm"
+                            >
+                                Lihat Aktivitas
+                                <span aria-hidden="true">→</span>
+                            </a>
+
+                            <a
+                                href="#umkm"
+                                class="experience-button-secondary inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-extrabold text-sm"
+                            >
+                                Cari Kuliner
+                                <span aria-hidden="true">⌕</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- EMPAT KARTU FITUR -->
+                    <div class="lg:col-span-6 xl:col-span-7">
+
+                        <div class="experience-grid">
+
+                            <!-- KARTU EKSPLORASI -->
+                            <a
+                                href="#daya-tarik"
+                                class="experience-card group"
+                                aria-label="Menuju bagian Daya Tarik"
+                            >
+
+                                <div class="experience-icon">
+                                    🧭
+                                </div>
+
+                                <h3>
+                                    Eksplorasi
+                                </h3>
+
+                                <p>
+                                    Temukan bagian menarik dari kawasan.
+                                </p>
+
+                            </a>
+
+
+                            <!-- KARTU ZIARAH -->
+                            <a
+                                href="#aktivitas"
+                                class="experience-card group"
+                                aria-label="Menuju bagian Aktivitas dan panduan ziarah"
+                            >
+
+                                <div class="experience-icon">
+                                    🙌
+                                </div>
+
+                                <h3>
+                                    Berziarah
+                                </h3>
+
+                                <p>
+                                    Utamakan sikap sopan dan tenang.
+                                </p>
+
+                            </a>
+
+
+                            <!-- KARTU DOKUMENTASI -->
+                            <button
+                                type="button"
+                                class="experience-card group text-left"
+                                onclick="document.querySelector('#daya-tarik img')?.click()"
+                                aria-label="Buka dokumentasi foto"
+                            >
+
+                                <div class="experience-icon">
+                                    📸
+                                </div>
+
+                                <h3>
+                                    Dokumentasi
+                                </h3>
+
+                                <p>
+                                    Abadikan arsitektur dan suasana.
+                                </p>
+
+                            </button>
+
+
+                            <!-- KARTU KULINER -->
+                            <a
+                                href="#umkm"
+                                class="experience-card group"
+                                aria-label="Menuju bagian kuliner"
+                            >
+
+                                <div class="experience-icon">
+                                    🍲
+                                </div>
+
+                                <h3>
+                                    Kuliner
+                                </h3>
+
+                                <p>
+                                    Nikmati pilihan makanan lokal.
+                                </p>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================================= -->
+    <!-- ========================================================= -->
+    <!-- VIDEO TIKTOK — TAMPILAN STORY / VERTICAL -->
+    <!-- ========================================================= -->
+
+    <section
+        id="video-makam"
+        class="py-10 sm:py-14 reveal"
+    >
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <a
+                href="https://vt.tiktok.com/ZSbMxNcTC/"
+                class="tiktok-video-link"
+                aria-label="Buka video Makam Sunan Bejagung Kidul di TikTok"
+            >
+
+                <div
+                    class="video-story-card rounded-[2rem] min-h-[560px] lg:min-h-[600px] px-6 py-10 sm:px-10 lg:px-16 flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-16"
+                >
+
+                    <div class="tiktok-content max-w-2xl order-2 lg:order-1">
+
+                        <span class="tiktok-badge">
+                            <span class="tiktok-dot"></span>
+                            VIDEO DOKUMENTASI
+                        </span>
+
+                        <h2
+                            class="mt-5 text-3xl sm:text-4xl lg:text-6xl font-extrabold text-brown-cream leading-[1.05]"
+                        >
+                            Sunan Bejagung
+                            <span class="block text-brown-taupe mt-2">
+                                dalam satu video.
+                            </span>
+                        </h2>
+
+                        <p
+                            class="mt-5 text-brown-milk/90 text-sm sm:text-base lg:text-lg leading-relaxed max-w-xl"
+                        >
+                            Lihat suasana Makam Sunan Bejagung Kidul melalui
+                            dokumentasi video. Klik tampilan video untuk langsung
+                            membuka TikTok.
+                        </p>
+
+                        <div class="tiktok-meta">
+                            <div class="tiktok-meta-item">
+                                <strong>01 · Suasana</strong>
+                                Melihat lingkungan makam
+                            </div>
+                            <div class="tiktok-meta-item">
+                                <strong>02 · Sejarah</strong>
+                                Mengenal jejak masa lalu
+                            </div>
+                            <div class="tiktok-meta-item">
+                                <strong>03 · Perjalanan</strong>
+                                Inspirasi sebelum berkunjung
+                            </div>
+                        </div>
+
+                        <div class="mt-7 flex items-center gap-4">
+                            <span class="inline-flex items-center gap-3 rounded-full bg-brown-cream px-5 py-3 text-sm font-extrabold text-brown-espresso shadow-lg">
+                                ▶&nbsp; Tonton di TikTok
+                                <span class="tiktok-arrow">→</span>
+                            </span>
+
+                            <span class="hidden sm:block text-xs text-brown-sand/75">
+                                Klik kartu untuk membuka video
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="tiktok-phone-wrap order-1 lg:order-2" aria-hidden="true">
+
+                        <div class="tiktok-phone video-phone">
+
+                            <img
+                                src="foto sunan bejagung.jpg"
+                                alt="Preview video Makam Sunan Bejagung Kidul"
+                            >
+
+                            <span class="tiktok-phone-top"></span>
+
+                            <span class="tiktok-play">
+                                ▶
+                            </span>
+
+                            <div class="tiktok-phone-side">
+                                <span>♡</span>
+                                <span>↗</span>
+                                <span>•••</span>
+                            </div>
+
+                            <span class="tiktok-phone-label">
+                                @dokumentasi_bejagung
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================================================= -->
+    <!-- ========================================================= -->
+    <!-- GALERI FOTO KIDUL — HANYA 5 FOTO -->
+    <!-- ========================================================= -->
+
+    <section id="galeri-kidul" class="py-16 bg-white-warm reveal">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-8">
+                <span class="text-xs font-bold tracking-[.22em] text-teal uppercase">
+                    GALERI FOTO
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-heritage-dark mt-2">
+                    Potret Makam Sunan Bejagung Kidul
+                </h2>
+                <p class="text-slate-deep/75 mt-3"></p>
+            </div>
+
+            <div class="kidul-gallery-wrap">
+                <div class="kidul-gallery-shell">
+                    <div class="kidul-gallery-track" id="kidulGalleryTrack">
+
+                        <div class="kidul-gallery-slide is-active">
+                            <img src="gapura makam sunan bejagung.jpg" alt="Gapura Makam Sunan Bejagung" loading="eager">
+                        </div>
+
+                        <div class="kidul-gallery-slide">
+                            <img src="bejagung 6" alt="Makam Sunan Bejagung Kidul 1" loading="eager">
+                        </div>
+
+                        <div class="kidul-gallery-slide">
+                            <img src="Bejagung 1" alt="Makam Sunan Bejagung Kidul 2" loading="eager">
+                        </div>
+
+                        <div class="kidul-gallery-slide">
+                            <img src="Bejagung 2" alt="Makam Sunan Bejagung Kidul 3" loading="eager">
+                        </div>
+
+                        <div class="kidul-gallery-slide">
+                            <img src="niii.jpg" alt="Makam Sunan Bejagung Kidul 3" loading="eager">
+                        </div>
+
+                        <div class="kidul-gallery-slide">
+                            <img src="kidul.webp" alt="Niii" loading="eager">
+                        </div>
+
+                    </div>
+
+                    <div class="kidul-gallery-dots" id="kidulGalleryDots" aria-hidden="true">
+                        <span class="kidul-gallery-dot is-active"></span>
+                        <span class="kidul-gallery-dot"></span>
+                        <span class="kidul-gallery-dot"></span>
+                        <span class="kidul-gallery-dot"></span>
+                        <span class="kidul-gallery-dot"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- QUOTE -->
+    <!-- ========================================================= -->
+
+    <section
+        class="py-12 bg-powder-blue/45 border-y border-powder-blue reveal"
+    >
+
+        <div class="max-w-5xl mx-auto px-4 text-center">
+
+            <span
+                class="font-script text-4xl text-teal block mb-2"
+            >
+                Warisan Agung Nusantara
+            </span>
+
+            <blockquote
+                class="text-xl sm:text-2xl font-serif italic text-heritage-dark leading-relaxed"
+            >
+                "Ketenangan dan suasana bersejarah Bejagung membawa
+                pengunjung untuk mengenal lebih dekat perjalanan Islam
+                di tanah Jawa."
+            </blockquote>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================================= -->
+    <!-- TENTANG -->
+    <!-- ========================================================= -->
+
+    <section
+        id="tentang"
+        class="py-20 reveal"
+    >
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div
+                class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center"
+            >
+
+
+                <div class="md:col-span-5 space-y-4">
+
+                    <span
+                        class="text-xs font-bold tracking-widest text-teal uppercase"
+                    >
+                        SEJARAH & LEGASI
+                    </span>
+
+                    <h2
+                        class="text-3xl sm:text-4xl font-extrabold text-heritage-dark"
+                    >
+                        Mengenal Sunan Bejagung Kidul
+                    </h2>
+
+                    <p class="text-slate-deep leading-relaxed">
+
+                        Sunan Bejagung Kidul merupakan salah satu tokoh
+                        yang dikenal dalam sejarah penyebaran Islam di
+                        wilayah Tuban dan sekitarnya.
+
+                    </p>
+
+                    <p class="text-slate-deep leading-relaxed">
+
+                        Kompleks makam ini menjadi salah satu tempat ziarah
+                        yang mempertemukan nilai sejarah, religi, dan budaya
+                        lokal masyarakat Tuban.
+
+                    </p>
+
+                </div>
+
+
+
+                <div
+                    class="md:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4"
+                >
+
+
+                    <!-- CARD 1 -->
+
+                    <div
+                        class="p-6 rounded-2xl bg-white-warm/75 border border-powder-blue shadow-card hover:-translate-y-2 hover:shadow-xl transition-all duration-300"
+                    >
+
+                        <div
+                            class="w-10 h-10 rounded-xl bg-powder-blue flex items-center justify-center text-heritage-dark font-bold mb-4"
+                        >
+                            🏛️
+                        </div>
+
+                        <h3
+                            class="font-bold text-lg text-heritage-dark mb-2"
+                        >
+                            Situs Bersejarah
+                        </h3>
+
+                        <p class="text-sm text-slate-deep/80">
+
+                            Memiliki nilai sejarah dan budaya yang menarik
+                            untuk dipelajari oleh pengunjung.
+
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- CARD 2 -->
+
+                    <div
+                        class="p-6 rounded-2xl bg-white-warm/75 border border-sage shadow-card hover:-translate-y-2 hover:shadow-xl transition-all duration-300"
+                    >
+
+                        <div
+                            class="w-10 h-10 rounded-xl bg-sage-soft flex items-center justify-center text-heritage-dark font-bold mb-4"
+                        >
+                            🌿
+                        </div>
+
+                        <h3
+                            class="font-bold text-lg text-heritage-dark mb-2"
+                        >
+                            Suasana Rindang
+                        </h3>
+
+                        <p class="text-sm text-slate-deep/80">
+
+                            Lingkungan makam memiliki suasana yang tenang
+                            dan cocok untuk kegiatan ziarah.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================================= -->
+    <!-- DAYA TARIK -->
+    <!-- ========================================================= -->
+
+    <section
+        id="daya-tarik"
+        class="py-20 bg-white-warm/55 border-t border-powder-blue reveal"
+    >
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+
+            <div
+                class="text-center max-w-3xl mx-auto mb-16"
+            >
+
+                <span
+                    class="text-xs font-bold tracking-widest text-teal uppercase"
+                >
+                    EKSPLORASI SITUS
+                </span>
+
+                <h2
+                    class="text-3xl sm:text-4xl font-extrabold text-heritage-dark mt-2"
+                >
+                    Daya Tarik Utama
+                </h2>
+
+                <p class="text-slate-deep/80 mt-3">
+
+                    Kenali beberapa hal menarik yang dapat ditemukan
+                    di kawasan Sunan Bejagung Kidul.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+
+                <!-- GAPURA -->
+
+                <div
+                    class="bg-white-warm rounded-2xl border border-powder-blue overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-xl transition-all duration-300 image-hover"
+                >
+
+                    <div class="h-56 relative overflow-hidden">
+
+                        <img
+                            src="gapura makam sunan bejagung.jpg"
+                            alt="Gapura Makam Sunan Bejagung"
+                            class="w-full h-full object-cover clickable-image"
+                            onclick="openLightbox(this.src, this.alt)"
+                        >
+
+                        <span
+                            class="absolute top-4 left-4 px-3 py-1 rounded-full bg-teal/90 text-white text-xs font-semibold"
+                        >
+                            Arsitektur
+                        </span>
+
+                    </div>
+
+                    <div class="p-6">
+
+                        <h3
+                            class="text-xl font-bold text-heritage-dark mb-2"
+                        >
+                            Gapura Makam
+                        </h3>
+
+                        <p
+                            class="text-sm text-slate-deep/80 leading-relaxed"
+                        >
+                            Gapura menjadi salah satu bagian yang menarik
+                            perhatian pengunjung karena bentuk arsitekturnya.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- NIII -->
+
+                <div
+                    class="bg-white-warm rounded-2xl border border-sage overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-xl transition-all duration-300 image-hover"
+                >
+
+                    <div class="h-56 relative overflow-hidden">
+
+                        <img
+                            src="niii.jpg"
+                            alt="Suasana Makam Sunan Bejagung"
+                            class="w-full h-full object-cover clickable-image"
+                            onclick="openLightbox(this.src, this.alt)"
+                        >
+
+                        <span
+                            class="absolute top-4 left-4 px-3 py-1 rounded-full bg-sage-soft/95 text-heritage-dark text-xs font-semibold"
+                        >
+                            Wisata Religi
+                        </span>
+
+                    </div>
+
+                    <div class="p-6">
+
+                        <h3
+                            class="text-xl font-bold text-heritage-dark mb-2"
+                        >
+                            Suasana Kompleks Makam
+                        </h3>
+
+                        <p
+                            class="text-sm text-slate-deep/80 leading-relaxed"
+                        >
+                            Suasana kawasan makam dapat menjadi bagian
+                            dari pengalaman wisata religi pengunjung.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- FOTO SUNAN -->
+
+                <div
+                    class="bg-white-warm rounded-2xl border border-brown-taupe/50 overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-xl transition-all duration-300 image-hover"
+                >
+
+                    <div class="h-56 relative overflow-hidden">
+
+                        <img
+                            src="foto sunan bejagung.jpg"
+                            alt="Makam Sunan Bejagung Kidul"
+                            class="w-full h-full object-cover clickable-image"
+                            onclick="openLightbox(this.src, this.alt)"
+                        >
+
+                        <span
+                            class="absolute top-4 left-4 px-3 py-1 rounded-full bg-brown-cocoa/90 text-white text-xs font-semibold"
+                        >
+                            Wisata Religi
+                        </span>
+
+                    </div>
+
+                    <div class="p-6">
+
+                        <h3
+                            class="text-xl font-bold text-heritage-dark mb-2"
+                        >
+                            Wisata Religi
+                        </h3>
+
+                        <p
+                            class="text-sm text-slate-deep/80 leading-relaxed"
+                        >
+                            Pengunjung dapat berziarah sekaligus mengenal
+                            sejarah dan budaya Islam yang berkembang di Tuban.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================================= -->
+    <!-- AKTIVITAS -->
+    <!-- ========================================================= -->
+
+    <section
+        id="aktivitas"
+        class="py-20 reveal"
+    >
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div
+                class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"
+            >
+
+
+                <div class="lg:col-span-6 space-y-6">
+
+                    <span
+                        class="text-xs font-bold tracking-widest text-teal uppercase"
+                    >
+                        PENGALAMAN PENGUNJUNG
+                    </span>
+
+                    <h2
+                        class="text-3xl sm:text-4xl font-extrabold text-heritage-dark"
+                    >
+                        Aktivitas di Sunan Bejagung
+                    </h2>
+
+
+
+                    <div class="space-y-4">
+
+
+                        <!-- AKTIVITAS 1 -->
+
+                        <div
+                            class="flex items-start gap-4 p-4 rounded-xl bg-white-warm/70 border border-brown-taupe/40 shadow-sm hover:-translate-y-1 transition-all duration-300"
+                        >
+
+                            <div
+                                class="w-8 h-8 rounded-full bg-brown-clay text-white flex items-center justify-center font-bold text-sm shrink-0"
+                            >
+                                1
+                            </div>
+
+                            <div>
+
+                                <h4 class="font-bold text-heritage-dark">
+                                    Wisata Ziarah
+                                </h4>
+
+                                <p class="text-sm text-slate-deep/80 mt-1">
+                                    Berziarah dan mendoakan para tokoh agama
+                                    serta mengenang perjalanan dakwah Islam.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- AKTIVITAS 2 -->
+
+                        <div
+                            class="flex items-start gap-4 p-4 rounded-xl bg-white-warm/70 border border-sage shadow-sm hover:-translate-y-1 transition-all duration-300"
+                        >
+
+                            <div
+                                class="w-8 h-8 rounded-full bg-teal text-white flex items-center justify-center font-bold text-sm shrink-0"
+                            >
+                                2
+                            </div>
+
+                            <div>
+
+                                <h4 class="font-bold text-heritage-dark">
+                                    Edukasi Sejarah
+                                </h4>
+
+                                <p class="text-sm text-slate-deep/80 mt-1">
+                                    Mempelajari sejarah Islam dan budaya lokal
+                                    yang berkembang di wilayah Tuban.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- AKTIVITAS 3 -->
+
+                        <div
+                            class="flex items-start gap-4 p-4 rounded-xl bg-white-warm/70 border border-powder-blue shadow-sm hover:-translate-y-1 transition-all duration-300"
+                        >
+
+                            <div
+                                class="w-8 h-8 rounded-full bg-sage text-heritage-dark flex items-center justify-center font-bold text-sm shrink-0"
+                            >
+                                3
+                            </div>
+
+                            <div>
+
+                                <h4 class="font-bold text-heritage-dark">
+                                    Fotografi
+                                </h4>
+
+                                <p class="text-sm text-slate-deep/80 mt-1">
+                                    Mengabadikan arsitektur, gapura, dan suasana
+                                    kawasan wisata religi.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ETIKA -->
+
+                <div class="lg:col-span-6">
+
+                    <div
+                        class="p-8 rounded-3xl bg-gradient-to-br from-brown-cream/90 via-cream-warm to-powder-blue/45 border border-white text-heritage-dark space-y-6 shadow-soft"
+                    >
+
+                        <span
+                            class="font-script text-3xl text-teal"
+                        >
+                            Etika Pengunjung
+                        </span>
+
+                        <h3 class="text-2xl font-bold text-heritage-dark">
+                            Panduan Berziarah
+                        </h3>
+
+                        <ul
+                            class="space-y-3 text-sm text-slate-deep/90 list-disc list-inside"
+                        >
+
+                            <li>
+                                Berpakaian sopan dan menjaga sikap.
+                            </li>
+
+                            <li>
+                                Menjaga ketenangan dan kebersihan.
+                            </li>
+
+                            <li>
+                                Menghormati kegiatan ibadah dan ziarah.
+                            </li>
+
+                            <li>
+                                Mengikuti aturan yang berlaku di kawasan makam.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================================= -->
+    <!-- KULINER -->
+    <!-- ========================================================= -->
+
+    <section
+        id="umkm"
+        class="py-20 bg-white-warm/55 border-t border-powder-blue reveal"
+    >
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+
+            <div
+                class="text-center max-w-3xl mx-auto mb-16"
+            >
+
+                <span
+                    class="text-xs font-bold tracking-widest text-teal uppercase"
+                >
+                    KULINER KHAS TUBAN
+                </span>
+
+                <h2
+                    class="text-3xl sm:text-4xl font-extrabold text-heritage-dark mt-2"
+                >
+                    Makanan Tradisional di Sekitar Bejagung
+                </h2>
+
+                <p class="text-slate-deep/80 mt-3">
+                    Setelah berziarah, pengunjung dapat menikmati
+                    berbagai kuliner tradisional khas Tuban.
+                </p>
+
+            </div>
+
+
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+
+                <!-- MBAH BAGONG -->
+
+                <div
+                    class="bg-white-warm rounded-2xl border border-brown-taupe/40 overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-xl transition-all duration-300 image-hover"
+                >
+
+                    <div class="h-48 overflow-hidden">
+
+                        <img
+                            src="mbah-bagong.jpg"
+                            alt="Warung Belut Legendaris Mbah Bagong"
+                            class="w-full h-full object-cover clickable-image"
+                            onclick="openLightbox(this.src, this.alt)"
+                        >
+
+                    </div>
+
+                    <div class="p-6">
+
+                        <span
+                            class="text-xs font-bold tracking-wider uppercase text-teal"
+                        >
+                            Kuliner Belut
+                        </span>
+
+                        <h3
+                            class="text-xl font-bold text-heritage-dark mt-2 mb-3"
+                        >
+                            Warung Belut Legendaris Mbah Bagong
+                        </h3>
+
+                        <p
+                            class="text-sm text-slate-deep/80 leading-relaxed mb-4"
+                        >
+                            Menyajikan belut goreng pedas dengan bumbu
+                            rempah khusus. Dapat dinikmati dengan nasi
+                            jagung atau nasi putih.
+                        </p>
+
+                        <div
+                            class="space-y-2 text-sm text-slate-deep"
+                        >
+
+                            <p>
+                                <strong>📍 Alamat:</strong><br>
+                                Jl. Mojopahit, Dukoh, Tegalagung,
+                                Kec. Semanding, Kabupaten Tuban
+                            </p>
+
+                            <p>
+                                <strong>🕒 Jam Buka:</strong>
+                                09.30 – 14.00 WIB
+                            </p>
+
+                            <p>
+                                <strong>🍽️ Menu:</strong>
+                                Belut goreng pedas
+                            </p>
+
+                            <p>
+                                <strong>💰 Harga:</strong>
+                                IDR 25.000 – 50.000 / porsi
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- BELUT JANGKAR -->
+
+                <div
+                    class="bg-white-warm rounded-2xl border border-sage overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-xl transition-all duration-300 image-hover"
+                >
+
+                    <div class="h-48 overflow-hidden">
+
+                        <img
+                            src="welut-jangkar.jpg"
+                            alt="Warung Belut Jangkar"
+                            class="w-full h-full object-cover clickable-image"
+                            onclick="openLightbox(this.src, this.alt)"
+                        >
+
+                    </div>
+
+                    <div class="p-6">
+
+                        <span
+                            class="text-xs font-bold tracking-wider uppercase text-teal"
+                        >
+                            Kuliner Belut
+                        </span>
+
+                        <h3
+                            class="text-xl font-bold text-heritage-dark mt-2 mb-3"
+                        >
+                            Warung Belut Jangkar
+                        </h3>
+
+                        <p
+                            class="text-sm text-slate-deep/80 leading-relaxed mb-4"
+                        >
+                            Menawarkan belut rica-rica, jeroan belut,
+                            dan becek mentok yang dapat dinikmati
+                            bersama nasi jagung.
+                        </p>
+
+                        <div
+                            class="space-y-2 text-sm text-slate-deep"
+                        >
+
+                            <p>
+                                <strong>📍 Alamat:</strong><br>
+                                Dukoh, Tegalagung, Kec. Semanding,
+                                Kabupaten Tuban
+                            </p>
+
+                            <p>
+                                <strong>🕒 Jam Buka:</strong>
+                                09.00 – 17.00 WIB
+                            </p>
+
+                            <p>
+                                <strong>🍽️ Menu:</strong>
+                                Belut rica-rica, jeroan belut & becek mentok
+                            </p>
+
+                            <p>
+                                <strong>💰 Harga:</strong>
+                                IDR 25.000 – 50.000 / porsi
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- MENTHOK SOR SAWO -->
+
+                <div
+                    class="bg-white-warm rounded-2xl border border-brown-taupe/40 overflow-hidden shadow-card hover:-translate-y-2 hover:shadow-xl transition-all duration-300 image-hover"
+                >
+
+                    <div class="h-48 overflow-hidden">
+
+                        <img
+                            src="mentok-sor.jpg"
+                            alt="Warung Menthok Sor Sawo"
+                            class="w-full h-full object-cover clickable-image"
+                            onclick="openLightbox(this.src, this.alt)"
+                        >
+
+                    </div>
+
+                    <div class="p-6">
+
+                        <span
+                            class="text-xs font-bold tracking-wider uppercase text-teal"
+                        >
+                            Kuliner Tradisional
+                        </span>
+
+                        <h3
+                            class="text-xl font-bold text-heritage-dark mt-2 mb-3"
+                        >
+                            Warung Menthok Sor Sawo
+                        </h3>
+
+                        <p
+                            class="text-sm text-slate-deep/80 leading-relaxed mb-4"
+                        >
+                            Menyajikan becek mentok dengan perpaduan
+                            rasa opor dan kare yang gurih serta kaya rempah.
+                            Tersedia juga es legen khas Tuban.
+                        </p>
+
+                        <div
+                            class="space-y-2 text-sm text-slate-deep"
+                        >
+
+                            <p>
+                                <strong>📍 Alamat:</strong><br>
+                                Jl. Mojopahit Gg. Buyung No.180,
+                                Karang, Kec. Semanding, Kabupaten Tuban
+                            </p>
+
+                            <p>
+                                <strong>🕒 Jam Buka:</strong>
+                                09.00 – 17.00 WIB
+                            </p>
+
+                            <p>
+                                <strong>🍽️ Menu:</strong>
+                                Becek mentok & es legen
+                            </p>
+
+                            <p>
+                                <strong>💰 Harga:</strong>
+                                IDR 25.000 – 50.000 / porsi
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================================= -->
+    <!-- LOKASI -->
+    <!-- ========================================================= -->
+
+    <section
+        id="lokasi"
+        class="relative py-20 bg-gradient-to-br from-brown-cream via-cream-warm to-powder-blue text-slate-deep overflow-hidden reveal"
+    >
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div
+                class="grid grid-cols-1 lg:grid-cols-12 gap-12"
+            >
+
+
+                <!-- INFO LOKASI -->
+
+                <div
+                    class="lg:col-span-5 p-7 sm:p-8 rounded-3xl bg-white/80 border border-brown-taupe/45 shadow-card backdrop-blur-sm space-y-6"
+                >
+
+                    <span
+                        class="text-xs font-bold tracking-widest text-brown-cocoa uppercase"
+                    >
+                        INFORMASI PRAKTIS
+                    </span>
+
+                    <h2
+                        class="text-3xl sm:text-4xl font-extrabold text-heritage-dark"
+                    >
+                        Lokasi & Akses
+                    </h2>
+
+                    <p
+                        class="text-slate-deep/85 leading-relaxed text-sm"
+                    >
+                        Makam Sunan Bejagung Kidul terletak di Desa Bejagung,
+                        Kecamatan Semanding, Kabupaten Tuban, Jawa Timur.
+                    </p>
+
+
+
+                    <div
+                        class="space-y-4 text-sm pt-2"
+                    >
+
+
+                        <!-- ALAMAT -->
+
+                        <div
+                            class="rounded-xl bg-brown-cream/65 border border-brown-taupe/25 px-4 py-3"
+                        >
+
+                            <span
+                                class="text-brown-cocoa font-bold"
+                            >
+                                📍 Alamat:
+                            </span>
+
+                            <span>
+                                Bejagung Kidul, Semanding,
+                                Kabupaten Tuban, Jawa Timur
+                            </span>
+
+                        </div>
+
+
+
+                        <!-- JAM -->
+
+                        <div
+                            class="rounded-xl bg-brown-cream/65 border border-brown-taupe/25 px-4 py-3"
+                        >
+
+                            <span
+                                class="text-brown-cocoa font-bold"
+                            >
+                                🕒 Jam Buka:
+                            </span>
+
+                            <span>
+                                Terbuka 24 Jam
+                            </span>
+
+                        </div>
+
+
+
+                        <!-- TIKET -->
+
+                        <div
+                            class="rounded-xl bg-brown-cream/65 border border-brown-taupe/25 px-4 py-3"
+                        >
+
+                            <span
+                                class="text-brown-cocoa font-bold"
+                            >
+                                🎟️ Tiket Masuk:
+                            </span>
+
+                            <span>
+                                Gratis
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- GOOGLE MAPS BUTTON -->
+
+                    <a
+                        href="https://maps.google.com/?q=Makam+Sunan+Bejagung+Kidul"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-pale-ocre text-heritage-dark font-bold text-sm shadow-sm hover:bg-brown-clay hover:text-white transition"
+                    >
+                        🗺️ Buka di Google Maps
+                    </a>
+
+                </div>
+
+
+
+                <!-- MAP -->
+
+                <div class="lg:col-span-7">
+
+                    <div
+                        class="rounded-3xl overflow-hidden border-2 border-brown-taupe/60 bg-heritage-dark/95 p-2 shadow-2xl"
+                    >
+
+                        <div
+                            class="relative h-[380px] rounded-2xl overflow-hidden bg-slate-200 border border-sand-beige/60"
+                        >
+
+                            <iframe
+                                title="Peta Makam Sunan Bejagung Kidul"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15843.181827653896!2d112.0400!3d-6.9150!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77a33b9b4661cd%3A0x8e833157f12e8b0!2sMakam%20Sunan%20Bejagung%20Kidul!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+                                class="w-full h-full border-0"
+                                allowfullscreen=""
+                                loading="lazy"
+                            >
+                            </iframe>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================================================= -->
+    <!-- FOOTER -->
+    <!-- ========================================================= -->
+
+    
+<!-- ========================================================= -->
+<!-- TIMELINE SEJARAH INTERAKTIF -->
+<!-- ========================================================= -->
+<section id="timeline-sejarah" class="py-20 sm:py-24 reveal">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-14">
+      <span class="text-xs font-bold tracking-[.2em] uppercase text-teal">JEJAK WAKTU</span>
+      <h2 class="mt-3 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-heritage-dark">Timeline Sejarah Bejagung</h2>
+      <p class="mt-4 text-slate-deep leading-relaxed">Kenali perjalanan kawasan Makam Sunan Bejagung Kidul melalui tahapan sejarah yang disusun secara ringkas dan interaktif.</p>
+    </div>
+
+    <div class="history-note rounded-2xl p-4 sm:p-5 mb-12 text-sm text-center">
+      <strong>Catatan:</strong> Timeline ini mengikuti informasi yang tersedia pada materi website. Detail tahun/peristiwa dapat dikembangkan lagi apabila tersedia sumber sejarah yang lebih lengkap.
+    </div>
+
+    <div class="history-timeline">
+      <div class="history-line"></div>
+
+      <div class="history-item">
+        <div class="history-card">
+          <div class="history-number">01 · Jejak Awal</div>
+          <h3 class="text-xl sm:text-2xl font-extrabold mt-2">Awal Perjalanan Sejarah</h3>
+          <p class="mt-3 leading-relaxed">Bejagung dikenal sebagai salah satu kawasan yang berkaitan dengan sejarah penyebaran Islam di wilayah Tuban dan sekitarnya.</p>
+        </div>
+        <div class="history-year"><div class="history-badge"><span>AWAL</span><small>SEJARAH</small></div></div>
+        <div class="history-dot"></div>
+      </div>
+
+      <div class="history-item">
+        <div class="history-card">
+          <div class="history-number">02 · Tokoh</div>
+          <h3 class="text-xl sm:text-2xl font-extrabold mt-2">Sunan Bejagung Kidul</h3>
+          <p class="mt-3 leading-relaxed">Nama Sunan Bejagung Kidul menjadi bagian dari ingatan sejarah dan tradisi masyarakat yang berkembang di kawasan Bejagung.</p>
+        </div>
+        <div class="history-year"><div class="history-badge"><span>TOKOH</span><small>BEJAGUNG</small></div></div>
+        <div class="history-dot"></div>
+      </div>
+
+      <div class="history-item">
+        <div class="history-card">
+          <div class="history-number">03 · Tradisi</div>
+          <h3 class="text-xl sm:text-2xl font-extrabold mt-2">Tradisi Ziarah</h3>
+          <p class="mt-3 leading-relaxed">Kompleks makam menjadi tempat ziarah yang mempertemukan nilai religi, sejarah, dan budaya lokal masyarakat Tuban.</p>
+        </div>
+        <div class="history-year"><div class="history-badge"><span>ZIARAH</span><small>TRADISI</small></div></div>
+        <div class="history-dot"></div>
+      </div>
+
+      <div class="history-item">
+        <div class="history-card">
+          <div class="history-number">04 · Tradisi yang Berlanjut</div>
+          <h3 class="text-xl sm:text-2xl font-extrabold mt-2">Ziarah dan Tradisi Masyarakat</h3>
+          <p class="mt-3 leading-relaxed">Penelitian UIN Sunan Ampel Surabaya yang membahas tradisi dan ritual di Makam Sunan Bejagung mencatat keberlanjutan sejumlah praktik budaya-religius hingga 2025, antara lain ziarah makam, sedekah bumi (manganan), bersih sumur, dawetan, haul, dan slametan/barikan.</p>
+          <div class="mt-4 grid sm:grid-cols-2 gap-3">
+            <div class="rounded-xl bg-brown-cream/55 border border-brown-taupe/45 p-3 text-sm"><strong class="text-heritage-dark">Nilai sosial</strong><span class="block mt-1 text-slate-deep">Syukur, kebersamaan, gotong royong, dan penghormatan terhadap tokoh agama.</span></div>
+            <div class="rounded-xl bg-brown-cream/55 border border-brown-taupe/45 p-3 text-sm"><strong class="text-heritage-dark">Catatan sejarah</strong><span class="block mt-1 text-slate-deep">Tradisi dipahami dalam penelitian tersebut sebagai bagian dari proses Islamisasi yang berinteraksi dengan budaya lokal.</span></div>
+          </div>
+        </div>
+        <div class="history-year"><div class="history-badge"><span>≤ 2025</span><small>TRADISI</small></div></div>
+        <div class="history-dot"></div>
+      </div>
+
+      <div class="history-item">
+        <div class="history-card">
+          <div class="history-number">05 · Masa Kini</div>
+          <h3 class="text-xl sm:text-2xl font-extrabold mt-2">Warisan yang Tetap Dirawat</h3>
+          <p class="mt-3 leading-relaxed">Pemerintah Kabupaten Tuban mencantumkan Makam Sunan Bejagung Lor dan Kidul di Kecamatan Semanding sebagai objek wisata yang dikelola oleh kelompok sadar wisata (Pokdarwis). Ini menunjukkan bahwa kawasan tersebut juga menjadi bagian dari pengelolaan destinasi wisata daerah.</p>
+          <div class="mt-4 rounded-2xl bg-heritage-dark/95 p-4 sm:p-5 text-sm text-brown-cream border border-brown-taupe/40">
+            <div class="grid sm:grid-cols-3 gap-4">
+              <div><span class="block text-brown-sand font-bold">Fungsi</span><span class="block mt-1 text-white/75">Wisata religi & sejarah</span></div>
+              <div><span class="block text-brown-sand font-bold">Pengelolaan</span><span class="block mt-1 text-white/75">Pokdarwis, menurut dokumen Pemkab Tuban</span></div>
+              <div><span class="block text-brown-sand font-bold">Pelestarian</span><span class="block mt-1 text-white/75">Tradisi dan peninggalan terus dirawat masyarakat</span></div>
+            </div>
+          </div>
+          <div class="mt-4 text-xs leading-relaxed text-slate-deep">
+            <strong class="text-heritage-dark">Sumber verifikasi:</strong> UIN Sunan Ampel Surabaya (penelitian 2026 tentang tradisi hingga 2025), Pemerintah Kabupaten Tuban (RPJMD 2025–2029), dan laman Pondok Pesantren Sunan Bejagung.
+          </div>
+        </div>
+        <div class="history-year"><div class="history-badge"><span>KINI</span><small>WARISAN</small></div></div>
+        <div class="history-dot"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer
+        class="bg-gradient-to-r from-brown-cream via-powder-blue/60 to-sage-soft border-t border-white text-heritage-dark py-10"
+    >
+
+        <div
+            class="max-w-7xl mx-auto px-4 text-center space-y-4"
+        >
+
+            <p
+                class="font-script text-3xl text-teal"
+            >
+                Jejak Ulama, Warisan Untuk Generasi
+            </p>
+
+            <p class="text-xs">
+                © 2026 Wisata Religi Makam Sunan Bejagung Kidul
+            </p>
+
+            <p class="text-xs">
+                Made By:
+                Vathan, Adrian, Ferdi, Mario
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- ========================================================= -->
+    <!-- LIGHTBOX -->
+    <!-- ========================================================= -->
+
+    <div
+        id="lightbox"
+        class="lightbox"
+        onclick="closeLightbox()"
+    >
+
+        <button
+            class="lightbox-close"
+            onclick="closeLightbox()"
+            aria-label="Tutup foto"
+        >
+            ×
+        </button>
+
+        <img
+            id="lightboxImage"
+            src=""
+            alt=""
+            onclick="event.stopPropagation()"
+        >
+
+    </div>
+
+
+
+    <!-- ========================================================= -->
+    <!-- BACK TO TOP -->
+    <!-- ========================================================= -->
+
+    <button
+        id="backToTop"
+        onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+        aria-label="Kembali ke atas"
+    >
+        ↑
+    </button>
+
+
+
+    <!-- ========================================================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ========================================================= -->
+
+    <script>
+
+
+        /* =========================================================
+           SCROLL PROGRESS
+        ========================================================= */
+
+        window.addEventListener("scroll", function () {
+
+            const scrollTop =
+                window.scrollY;
+
+            const documentHeight =
+                document.documentElement.scrollHeight -
+                document.documentElement.clientHeight;
+
+            const scrollPercentage =
+                (scrollTop / documentHeight) * 100;
+
+            document.getElementById(
+                "scroll-progress"
+            ).style.width =
+                scrollPercentage + "%";
+
+        });
+
+
+
+        /* =========================================================
+           BACK TO TOP
+        ========================================================= */
+
+        const backToTop =
+            document.getElementById(
+                "backToTop"
+            );
+
+
+        window.addEventListener("scroll", function () {
+
+            if (window.scrollY > 500) {
+
+                backToTop.classList.add(
+                    "show"
+                );
+
+            } else {
+
+                backToTop.classList.remove(
+                    "show"
+                );
+
+            }
+
+        });
+
+
+
+        /* =========================================================
+           SCROLL REVEAL
+        ========================================================= */
+
+        const revealElements =
+            document.querySelectorAll(
+                ".reveal"
+            );
+
+
+        const revealObserver =
+            new IntersectionObserver(
+
+                function (entries) {
+
+                    entries.forEach(
+                        function (entry) {
+
+                            if (
+                                entry.isIntersecting
+                            ) {
+
+                                entry.target.classList.add(
+                                    "active"
+                                );
+
+                            }
+
+                        }
+                    );
+
+                },
+
+                {
+                    threshold: 0.12
+                }
+
+            );
+
+
+        revealElements.forEach(
+            function (element) {
+
+                revealObserver.observe(
+                    element
+                );
+
+            }
+        );
+
+
+
+        /* =========================================================
+           LIGHTBOX
+        ========================================================= */
+
+        function openLightbox(src, alt) {
+
+            const lightbox =
+                document.getElementById(
+                    "lightbox"
+                );
+
+            const image =
+                document.getElementById(
+                    "lightboxImage"
+                );
+
+
+            image.src =
+                src;
+
+            image.alt =
+                alt;
+
+
+            lightbox.classList.add(
+                "active"
+            );
+
+
+            document.body.style.overflow =
+                "hidden";
+
+        }
+
+
+
+        function closeLightbox() {
+
+            const lightbox =
+                document.getElementById(
+                    "lightbox"
+                );
+
+
+            lightbox.classList.remove(
+                "active"
+            );
+
+
+            document.body.style.overflow =
+                "";
+
+        }
+
+
+
+        /* =========================================================
+           ESC UNTUK TUTUP LIGHTBOX
+        ========================================================= */
+
+        document.addEventListener(
+            "keydown",
+            function (event) {
+
+                if (
+                    event.key === "Escape"
+                ) {
+
+                    closeLightbox();
+
+                }
+
+            }
+        );
+
+
+
+        /* =========================================================
+           PAUSE RUNNING TEXT
+        ========================================================= */
+
+        const marquee =
+            document.querySelector(
+                ".marquee-content"
+            );
+
+
+        if (marquee) {
+
+            marquee.addEventListener(
+                "mouseenter",
+                function () {
+
+                   
+
+                }
+            );
+
+
+            marquee.addEventListener(
+                "mouseleave",
+                function () {
+
+                    marquee.style.animationPlayState =
+                        "running";
+
+                }
+            );
+
+        }
+</script>
+
+
+
+
+<script>
+/* =========================================================
+   FITUR #8 — RIPPLE INTERACTION
+========================================================= */
+(function () {
+    const targets = document.querySelectorAll(
+        'button, a.rounded-full, a[class*="px-"]'
+    );
+
+    targets.forEach(function (target) {
+        target.addEventListener('click', function (event) {
+            if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+            const rect = target.getBoundingClientRect();
+            const ripple = document.createElement('span');
+            ripple.className = 'micro-ripple';
+            ripple.style.left = (event.clientX - rect.left) + 'px';
+            ripple.style.top = (event.clientY - rect.top) + 'px';
+
+            if (getComputedStyle(target).position === 'static') {
+                target.style.position = 'relative';
+            }
+
+            target.style.overflow = 'hidden';
+            target.appendChild(ripple);
+
+            setTimeout(function () {
+                ripple.remove();
+            }, 650);
+        });
+    });
+})();
+</script>
+
+
+<script id="kidul-gallery-script">
+(function(){
+    const slides = Array.from(document.querySelectorAll('.kidul-gallery-slide'));
+    const dots = Array.from(document.querySelectorAll('.kidul-gallery-dot'));
+    if(!slides.length) return;
+
+    let current = 0;
+
+    function showSlide(index){
+        current = (index + slides.length) % slides.length;
+        slides.forEach((slide, i) => {
+            slide.classList.toggle('is-active', i === current);
+        });
+        dots.forEach((dot, i) => {
+            dot.classList.toggle('is-active', i === current);
+        });
+    }
+
+    showSlide(0);
+    setInterval(() => showSlide(current + 1), 2500);
+})();
+</script>
+
+
+<style id="header-color-upgrade">
+/* =========================================================
+   HEADER COLOR UPGRADE
+   Lebih kaya warna: teal, gold, terracotta, cream
+   ========================================================= */
+
+.main-navbar {
+    background:
+        radial-gradient(circle at 12% 45%, rgba(185,147,115,.18), transparent 22%),
+        radial-gradient(circle at 88% 45%, rgba(79,135,144,.18), transparent 22%),
+        linear-gradient(180deg, #fffdf6 0%, #f5efe2 58%, #efe4d1 100%) !important;
+    border-top: 4px solid #3b2a21 !important;
+    border-bottom: 3px solid #b99373 !important;
+    box-shadow:
+        0 5px 0 rgba(79,135,144,.12),
+        0 12px 28px rgba(59,42,33,.12) !important;
+}
+
+/* Panel warna di belakang logo */
+.main-navbar .navbar-inner::before {
+    content: "";
+    position: absolute;
+    left: -28px;
+    top: 13px;
+    bottom: 13px;
+    width: 330px;
+    border-radius: 0 70px 70px 0;
+    background: linear-gradient(100deg, rgba(79,135,144,.14), rgba(185,147,115,.08), transparent);
+    border-left: 5px solid rgba(79,135,144,.32);
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* Garis motif di bawah header dibuat lebih tegas */
+.header-ornament {
+    height: 14px !important;
+    bottom: -1px !important;
+    gap: 10px !important;
+}
+
+.header-ornament::before {
+    top: 2px !important;
+    height: 2px !important;
+    background:
+        linear-gradient(
+            90deg,
+            transparent 0%,
+            #3f777e 12%,
+            #c39a68 27%,
+            #e1b86f 40%,
+            #3f777e 50%,
+            #e1b86f 60%,
+            #c39a68 73%,
+            #3f777e 88%,
+            transparent 100%
+        ) !important;
+}
+
+.header-ornament::after {
+    bottom: 0 !important;
+    height: 4px !important;
+    background:
+        repeating-linear-gradient(
+            135deg,
+            #3f777e 0 12px,
+            #d6aa6b 12px 20px,
+            #8e5f45 20px 28px,
+            #d6aa6b 28px 36px
+        ) !important;
+}
+
+/* Ornamen tengah lebih terlihat */
+.ornament-line {
+    height: 3px !important;
+    width: 54px !important;
+    border-radius: 99px;
+    background: linear-gradient(90deg, #8e5f45, #d6aa6b, #3f777e) !important;
+    box-shadow: 0 1px 4px rgba(59,42,33,.22);
+}
+
+.ornament-line-left,
+.ornament-line-right {
+    width: 92px !important;
+}
+
+.ornament-diamond {
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff6dd !important;
+    background: #8e5f45;
+    border: 2px solid #d6aa6b;
+    transform: rotate(45deg);
+    font-size: 0 !important;
+    box-shadow: 0 2px 7px rgba(59,42,33,.25);
+}
+
+.ornament-diamond::after {
+    content: "✦";
+    transform: rotate(-45deg);
+    color: #fff4d0;
+    font-size: 9px;
+}
+
+.ornament-diamond.small {
+    width: 12px;
+    height: 12px;
+    background: #3f777e;
+    border-color: #e1b86f;
+}
+
+/* Menu navigasi diberi badge kecil dan warna hover */
+.nav-link-heritage {
+    color: #294f55 !important;
+    font-weight: 800 !important;
+    border-radius: 12px;
+    padding: 9px 10px !important;
+}
+
+.nav-link-heritage:hover {
+    color: #7d5039 !important;
+    background: rgba(201,167,123,.16);
+    transform: translateY(-2px);
+}
+
+.nav-link-heritage::after {
+    left: 10px !important;
+    right: 10px !important;
+    bottom: 2px !important;
+    height: 3px !important;
+    background: linear-gradient(90deg, #3f777e, #d6aa6b, #8e5f45) !important;
+}
+
+/* Kotak ikon menu lebih berwarna */
+.nav-icon {
+    color: #fff !important;
+    background: linear-gradient(135deg, #3f777e, #285c64) !important;
+    border: 2px solid rgba(214,170,107,.55) !important;
+    box-shadow: 0 3px 8px rgba(40,92,100,.18);
+}
+
+/* Tombol lokasi dibuat menjadi aksen utama */
+.location-button-heritage {
+    background:
+        linear-gradient(135deg, #8e5f45 0%, #a96f4e 42%, #3f777e 100%) !important;
+    border: 2px solid #d9b575 !important;
+    box-shadow:
+        0 5px 0 rgba(59,42,33,.16),
+        0 9px 20px rgba(63,119,126,.22) !important;
+}
+
+.location-button-heritage:hover {
+    transform: translateY(-2px);
+    filter: saturate(1.12);
+}
+
+/* Running bar sekarang benar-benar berwarna */
+.running-heritage {
+    background:
+        linear-gradient(90deg, #173f45 0%, #225b63 25%, #17434a 50%, #225b63 75%, #173f45 100%) !important;
+    border-top: 2px solid #d6aa6b !important;
+    border-bottom: 3px solid #8e5f45 !important;
+    box-shadow: 0 5px 15px rgba(30,65,70,.20);
+}
+
+/* Aksen di isi running text */
+.running-heritage .marquee-content span {
+    color: #fff4dc !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,.22);
+}
+
+.running-heritage .marquee-content span::after {
+    content: "◆" !important;
+    color: #e4b967 !important;
+    font-size: 9px !important;
+}
+
+/* Tambahan motif dekoratif yang jelas di sisi header */
+.main-navbar .navbar-inner::after {
+    content: "✦  ◇  ✦";
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: rgba(142,95,69,.30);
+    font-size: 14px;
+    letter-spacing: 8px;
+    pointer-events: none;
+}
+
+/* Logo dibuat sedikit lebih menonjol */
+.main-navbar .rounded-full {
+    box-shadow:
+        0 0 0 4px rgba(214,170,107,.22),
+        0 5px 12px rgba(59,42,33,.15);
+}
+
+/* Garis dekoratif tambahan tepat di bawah running bar */
+.running-heritage::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 2px;
+    background: linear-gradient(90deg, #8e5f45, #e1b86f, #3f777e, #e1b86f, #8e5f45);
+}
+
+/* Mobile tetap ramai tetapi tidak berantakan */
+@media (max-width: 767px) {
+    .main-navbar .navbar-inner::before {
+        width: 190px;
+    }
+
+    .main-navbar .navbar-inner::after {
+        display: none;
+    }
+
+    .header-ornament {
+        gap: 5px !important;
+    }
+
+    .ornament-line,
+    .ornament-line-left,
+    .ornament-line-right {
+        width: 28px !important;
+    }
+
+    .ornament-diamond {
+        width: 14px;
+        height: 14px;
+    }
+}
+</style>
+
+
+<style id="no-initial-delay">
+/* =========================================================
+   NO INITIAL DELAY
+   Header + hero langsung tampil saat website dibuka.
+   Animasi scroll tetap ada tetapi sangat singkat.
+   ========================================================= */
+
+/* Bagian yang terlihat saat halaman pertama dibuka */
+header,
+#hero,
+.hero,
+#home,
+main > section:first-of-type {
+    animation: none !important;
+    transition-delay: 0s !important;
+}
+
+/* Hilangkan jeda awal pada elemen reveal */
+.reveal {
+    transition-delay: 0s !important;
+}
+
+/* Reveal tetap halus, tetapi jauh lebih cepat */
+.reveal {
+    transition:
+        opacity .22s ease-out,
+        transform .22s ease-out !important;
+}
+
+.reveal.active {
+    transition-delay: 0s !important;
+}
+
+/* Jangan menunggu animasi heading */
+.reveal.active h2,
+.reveal.active h3 {
+    animation-duration: .22s !important;
+    animation-delay: 0s !important;
+}
+
+/* Animasi section yang sebelumnya hampir 1 detik */
+section {
+    animation-delay: 0s !important;
+}
+
+/* Logo, navigasi, tombol, dan ornamen langsung aktif */
+.main-navbar,
+.main-navbar *,
+.header-ornament,
+.running-heritage {
+    animation-delay: 0s !important;
+}
+
+/* Jangan membuat browser menunggu efek transform/filter */
+.main-navbar {
+    transition-delay: 0s !important;
+}
+
+/* Kurangi efek fade saat load */
+body {
+    animation-delay: 0s !important;
+}
+
+/* Bila ada elemen yang memakai class transition-delay-*,
+   paksa tetap muncul tanpa menunggu. */
+[class*="delay-"],
+[class*="duration-"] {
+    animation-delay: 0s;
+}
+
+/* Namun hover tetap boleh terasa halus */
+.nav-link-heritage,
+.location-button-heritage,
+.nav-icon {
+    transition-duration: .18s !important;
+}
+</style>
+
+
+<style id="video-story-upgrade">
+/* =========================================================
+   VIDEO STORY — gaya vertical seperti tampilan sebelumnya
+   ========================================================= */
+
+.video-story-card {
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 85% 18%, rgba(79,135,144,.20), transparent 28%),
+        radial-gradient(circle at 12% 82%, rgba(185,147,115,.16), transparent 30%),
+        linear-gradient(135deg, #3e2b22 0%, #4a3428 48%, #284f55 100%);
+    border: 1px solid rgba(201,167,123,.45);
+    box-shadow:
+        0 22px 55px rgba(45,32,25,.18),
+        inset 0 1px 0 rgba(255,255,255,.08);
+}
+
+.video-story-card::before {
+    content: "";
+    position: absolute;
+    inset: 12px;
+    border: 1px solid rgba(214,170,107,.22);
+    border-radius: 1.6rem;
+    pointer-events: none;
+}
+
+.video-story-card::after {
+    content: "✦  ◇  ✦";
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: rgba(225,184,111,.35);
+    letter-spacing: 8px;
+    font-size: 12px;
+    pointer-events: none;
+}
+
+.video-phone {
+    position: relative;
+    width: min(100%, 310px);
+    padding: 8px;
+    border-radius: 2rem;
+    background:
+        linear-gradient(145deg, #e1b86f, #8e5f45 42%, #3f777e 100%);
+    box-shadow:
+        0 22px 40px rgba(0,0,0,.38),
+        0 0 0 2px rgba(255,244,208,.25);
+}
+
+.video-phone::before {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 1.75rem;
+    border: 1px solid rgba(255,244,208,.5);
+    pointer-events: none;
+    z-index: 3;
+}
+
+.video-phone-player {
+    display: block;
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    max-height: 570px;
+    object-fit: cover;
+    border-radius: 1.55rem;
+    background: #090909;
+}
+
+.video-phone-player:focus {
+    outline: 2px solid #e1b86f;
+    outline-offset: 3px;
+}
+
+.video-live-label {
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    z-index: 4;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: rgba(23,43,46,.78);
+    border: 1px solid rgba(225,184,111,.55);
+    backdrop-filter: blur(5px);
+    color: #fff4dc;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .10em;
+}
+
+.video-live-label span {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #e1b86f;
+    box-shadow: 0 0 8px rgba(225,184,111,.75);
+}
+
+.video-phone-caption {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 18px;
+    z-index: 4;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    text-shadow: 0 1px 4px rgba(0,0,0,.8);
+    pointer-events: none;
+}
+
+.video-arrow {
+    transition: transform .2s ease;
+}
+
+.video-story-card:hover .video-arrow {
+    transform: translateX(4px);
+}
+
+@media (max-width: 767px) {
+    .video-story-card {
+        min-height: auto;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .video-story-card::after {
+        right: 18px;
+        top: 14px;
+    }
+
+    .video-phone {
+        width: min(100%, 285px);
+    }
+}
+
+/* ===== FIX HAMBURGER MOBILE FINAL ===== */
+header, header.main-navbar, .main-navbar { overflow: visible !important; }
+.mobile-menu-button { position:relative !important; z-index:10001 !important; }
+.mobile-menu-button span { display:block; }
+.mobile-menu { position:absolute !important; top:100% !important; left:0 !important; right:0 !important; z-index:10000 !important; display:block !important; opacity:0; visibility:hidden; pointer-events:none; transform:translateY(-8px); transition:opacity .2s ease,transform .2s ease,visibility .2s ease; }
+.mobile-menu.is-open { opacity:1 !important; visibility:visible !important; pointer-events:auto !important; transform:translateY(0) !important; }
+@media (max-width:767px){ .mobile-menu-button{display:inline-flex !important;} .mobile-menu{display:block !important;} header,header.main-navbar,.main-navbar{overflow:visible !important;} }
+@media (min-width:768px){ .mobile-menu-button{display:none !important;} .mobile-menu{display:none !important;} }
+/* ===== END FIX ===== */
+</style>
+
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const button = document.getElementById('mobileMenuButton');
+    const menu = document.getElementById('mobileMenu');
+    if (!button || !menu) return;
+
+    function closeMenu() {
+        button.classList.remove('is-open');
+        menu.classList.remove('is-open');
+        button.setAttribute('aria-expanded', 'false');
+        button.setAttribute('aria-label', 'Buka menu navigasi');
+        menu.setAttribute('aria-hidden', 'true');
+    }
+
+    button.addEventListener('click', function (event) {
+        event.stopPropagation();
+        const open = !menu.classList.contains('is-open');
+        button.classList.toggle('is-open', open);
+        menu.classList.toggle('is-open', open);
+        button.setAttribute('aria-expanded', String(open));
+        button.setAttribute('aria-label', open ? 'Tutup menu navigasi' : 'Buka menu navigasi');
+        menu.setAttribute('aria-hidden', String(!open));
+    });
+
+    menu.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', closeMenu);
+    });
+
+    document.addEventListener('click', function (event) {
+        if (menu.classList.contains('is-open') && !menu.contains(event.target) && !button.contains(event.target)) {
+            closeMenu();
+        }
+    });
+
+    window.addEventListener('resize', function () {
+        if (window.innerWidth >= 768) closeMenu();
+    });
+});
+</script>
+
+
+<script id="hamburger-reliable-final-script">
+(function () {
+  function initMobileMenu() {
+    var button = document.getElementById('mobileMenuButton');
+    var menu = document.getElementById('mobileMenu');
+    if (!button || !menu || button.dataset.menuReady === 'true') return;
+    button.dataset.menuReady = 'true';
+    function setMenu(open) {
+      button.classList.toggle('is-open', open);
+      menu.classList.toggle('is-open', open);
+      button.setAttribute('aria-expanded', open ? 'true' : 'false');
+      button.setAttribute('aria-label', open ? 'Tutup menu navigasi' : 'Buka menu navigasi');
+      menu.setAttribute('aria-hidden', open ? 'false' : 'true');
+    }
+    button.addEventListener('click', function (event) {
+      event.preventDefault(); event.stopPropagation();
+      setMenu(!menu.classList.contains('is-open'));
+    });
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () { setMenu(false); });
+    });
+    document.addEventListener('click', function (event) {
+      if (menu.classList.contains('is-open') && !menu.contains(event.target) && !button.contains(event.target)) setMenu(false);
+    });
+    window.addEventListener('resize', function () { if (window.innerWidth >= 768) setMenu(false); });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initMobileMenu);
+  else initMobileMenu();
+})();
+</script>
+
+</body>
+
+</html>  
